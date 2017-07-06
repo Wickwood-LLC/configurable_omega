@@ -190,7 +190,7 @@ function configurable_omega_process_html(&$variables) {
     _color_html_alter($variables);
   }
 }
- 
+
 /*
  * Implements template_process_page().
  */
