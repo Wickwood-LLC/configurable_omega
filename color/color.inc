@@ -61,7 +61,7 @@ $info['copy'] = array();
 // Files used in the scheme preview.
 $info['preview_css'] = 'color/preview.css';
 // $info['preview_js'] = 'color/preview.js';
-// $info['preview_html'] = 'color/preview.html';
+$info['preview_html'] = 'color/preview.html';
  
 // Gradients
 $info['gradients'] = array();
