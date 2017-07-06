@@ -25,7 +25,7 @@ $info['schemes'] = array(
       'link' => '#ff7f00',
       'text' => '#777777',
       'titles' => '#333333',
-      'footer' => '#2677ff',
+      'footer' => '#2677ff', 
     ),
   ),
   // Let's create a scheme called Drupal Love.
