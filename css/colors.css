@@ -1,21 +1,17 @@
 /* Site background color */
 body { background-color: #ffffff; color: #777777; }
  
+/* Lists */
 ul,
 li,
 ul li.collapsed,
 ul li.expanded,
 ul li.leaf {
-  color: #777777;
+ color: #777777;
 }
  
 /* Site titles */
 h1, h2 { color: #333333; }
- 
-/* Header */
-#header {
-  background: url('../images/header.png') repeat-x 0 0;
-}
  
 /* Main content area links */
 #main-content a:link,
@@ -28,16 +24,5 @@ h1, h2 { color: #333333; }
 #site-menu ul li a { color: #666666; }
  
 /* Main menu active links */
-#site-menu ul li.active-trail,
-#site-menu ul li.active { background: url(../images/menu-item-active-left.png) no-repeat 0 0 transparent; }
- 
 #site-menu ul li.active-trail a,
-#site-menu ul li a.active { background: url(../images/menu-item-active-right.png) no-repeat 100% 0 transparent; color: #000000; }
- 
-/* The Druplicon image is copied with Color module. */
-#druplicon {
-  background: url(../images/druplicon.png) no-repeat 0 0;
-  height: 120px;
-  padding: 38px 0 0 125px;
-  width: 120px;
-}
+#site-menu ul li a.active { background: #eeeeee; color: #000000; }

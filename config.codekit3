@@ -553,9 +553,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/color\/preview-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/color\/preview.png": {
@@ -574,6 +574,16 @@
 		"oA": 2,
 		"oAP": "\/configurable_omega.info",
 		"oF": 0
+		},
+	"\/css\/colors.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/colors-min.css",
+		"oF": 1,
+		"oS": 3
 		},
 	"\/css\/configurable-omega.reset.css": {
 		"aP": 1,
@@ -1375,6 +1385,12 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/template.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template.php",
+		"oF": 0
 		},
 	"\/templates\/maintenance-page.tpl.php": {
 		"ft": 8192,
