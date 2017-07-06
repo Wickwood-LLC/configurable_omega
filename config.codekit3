@@ -558,6 +558,12 @@
 		"oF": 1,
 		"oS": 3
 		},
+	"\/color\/preview.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/color\/preview.html",
+		"oF": 0
+		},
 	"\/color\/preview.png": {
 		"ft": 32768,
 		"iS": 661,

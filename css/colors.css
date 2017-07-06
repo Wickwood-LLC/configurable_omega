@@ -12,6 +12,11 @@ ul li.leaf {
  
 /* Site titles */
 h1, h2 { color: #333333; }
+
+/* Header */
+#header {
+	background-color: #2677ff;
+}
  
 /* Main content area links */
 #main-content a:link,
@@ -26,3 +31,8 @@ h1, h2 { color: #333333; }
 /* Main menu active links */
 #site-menu ul li.active-trail a,
 #site-menu ul li a.active { background: #eeeeee; color: #000000; }
+
+/* Footer */
+#footer {
+	background-color: #2677ff;
+}
