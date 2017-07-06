@@ -564,6 +564,15 @@
 		"oAP": "\/color\/preview.html",
 		"oF": 0
 		},
+	"\/color\/preview.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/color\/preview-min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/color\/preview.png": {
 		"ft": 32768,
 		"iS": 661,
