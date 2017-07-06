@@ -21,11 +21,16 @@ html.js #preview {
 		padding: 0;
 		width: 100%;
 }
-/* Header */
 
+#preview-page {
+	background-color: #ffffff;
+}
+
+/* Header */
 #preview-header {
 		height: 100px;
 		padding: 0 1em 40px;
+		background-color: #2677ff;
 }
 #preview-header h1 {
 		float: left;
@@ -43,7 +48,6 @@ html.js #preview {
 		padding: 0.5em 1em;
 }
 /* Main content */
-
 #preview-main {
 		padding: 0.5em;
 }
@@ -54,4 +58,9 @@ html.js #preview {
 }
 #preview h1 {
 		font-size: 3em;
+}
+
+/* Footer */
+#preview-footer {
+	background-color: #2677ff;
 }
