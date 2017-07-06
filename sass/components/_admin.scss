@@ -1,0 +1,124 @@
+.compact-link {
+  font-size: 11px;
+  height: 20px;
+  margin: 0 0 10px;
+
+  a {
+    float: left;
+    line-height: 18px;
+    padding: 0 9px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #666;
+    background: #fff;
+  }
+}
+
+.admin {
+	.right, .left {
+    box-sizing: border-box;
+    width: 50%;
+    margin: 0;
+	}
+	.left {
+		padding-right: 5px;
+    float: left;
+	}
+	.right {
+		padding-left: 5px;
+    float: right;
+	}
+}
+
+.admin-panel {
+  background: #fff;
+  margin: 0 0 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ddd;
+
+  h3 {
+  	position: relative;
+    padding: 10px 5px 9px 20px;
+    margin: 0;
+    min-height: 30px;
+    border-bottom: 1px solid #e8e8e8;
+    background: #f4f4f4;
+    line-height: 30px;
+    font-weight: bold;
+  }
+
+  .admin-panel__body {
+  	padding: 0;
+  }
+
+  .admin-list {
+  	margin-bottom: 0;
+
+  	dt {
+	    padding: 10px 5px 0 20px;
+	    margin: 0;
+  	}
+  	dd {
+  		padding: 0 5px 9px 20px;
+  		border-bottom: 1px solid #e8e8e8;
+  		font-size: 14px;
+  	}
+  }
+}
+
+.page-admin-people-permissions {
+	max-width: 100%;
+
+	#header,
+	#branding .limiter,
+	#page-title,
+	#console,
+	#page,
+	#footer {
+		max-width: 100%;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	td.checkbox {
+		vertical-align: middle;
+
+		.form-item input.form-checkbox {
+			float: none;
+			display: inline-block;
+		}
+	}
+}
+
+.page-admin-modules {
+	#module-filter-wrapper {
+		thead {
+			display: table-header-group;
+		}
+	}
+}
+
+#edit-options .collapsible {
+  float: none;
+  width: inherit;
+}
+
+.tabs.secondary {
+  text-align: right;
+
+  li {
+    display: inline-block;
+    margin-right: 0.5em;
+
+    a {
+      background-color: transparent;
+    }
+  }
+}
+
+.page-node-add {
+  #main-content {
+    margin: 0 1em;
+  }
+}

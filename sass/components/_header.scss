@@ -1,0 +1,162 @@
+#mini-panel-header {
+	display: flex;
+	width: 100%;
+	margin-bottom: 0px;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 0;
+
+	#site-title {
+		display: inline-block;
+		line-height: 1;
+		margin: 0;
+		font-size: 3em;
+
+		a:hover {
+			color: #0f753b;
+			text-decoration: none;
+		}
+
+		@include breakpoint(435px) {
+			font-size: 4em;
+		}
+		@include breakpoint(640px) {
+			font-size: 5em;
+		}
+	}
+
+	.brand {
+		flex: 1;
+		text-align: center;
+
+		@include breakpoint(768px) {
+			flex: 1 0 640px;
+		}
+	}
+
+	.certificates {
+		display: flex;
+		flex: 0;
+		justify-content: center;
+		align-items: center;
+
+		.certificate img {
+			width: auto;
+			height: 180px;
+			margin-right: 10px;
+		}
+	}
+
+	.site-title-logo {
+		text-align: center; 
+	}
+
+	#logo img {
+		height: 61px;
+		width: auto;
+
+		@include breakpoint(435px) {
+			height: 100px;
+		}
+	}
+
+	.logo-container {
+		display: inline-block;
+		vertical-align: top;
+		top: -13px;
+		right: 20px;
+		margin: 0;
+
+		@include breakpoint(435px) {
+			position: relative;
+		}
+		@include breakpoint(640px) {
+			position: initial;
+			vertical-align: initial;
+		}
+	}
+
+	.pane-page-logo {
+		flex: 0;
+	}
+
+	.pane-page-site-name {
+		font-size: 2.1em ;
+		line-height: 1.5;
+		text-align: center;
+		flex: 0 auto;
+
+		@include breakpoint(568px) {
+			font-size: 2em;
+			flex: 4;
+		}
+		@include breakpoint(768px) {
+			font-size: 2.2em;
+		}
+		@include breakpoint(1024px) {
+			font-size: 2.5em;
+		}
+	}
+	.pane-page-slogan {
+		display: inline-block;
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 1.5;
+		text-align: center;
+		flex: 1;
+		margin: 0 1em;
+		max-width: 255px;
+
+		@include breakpoint(442px) {
+			max-width: 368px;
+		}
+
+		@include breakpoint(628px) {
+			max-width: 554px;
+		}
+
+		@include breakpoint(701px) {
+			font-size: 18px;
+			max-width: 625px;
+		}
+	}
+}
+
+.site-title-1 {
+	white-space: nowrap;
+	float: right;
+	clear: both;
+
+	@include breakpoint(640px) {
+		float: none;
+	}
+}
+
+.site-title-2 {
+	white-space: nowrap;
+	float: right;
+	clear: both;
+	margin-right: 0.9em;
+	margin-top: -0.5em;
+
+	@include breakpoint(640px) {
+		float: none;
+		margin: 0;
+	}
+
+	.blue {
+		color: #4285F4;
+	}
+	.yellow {
+		color: #F3B500;
+	}
+	.red {
+		color: #EA4335;
+	}
+}
+
+.not-logged-in #header {
+	margin-bottom: 1em;
+}

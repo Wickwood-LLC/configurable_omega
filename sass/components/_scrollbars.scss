@@ -1,0 +1,54 @@
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(1,148,1,0.8); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0,255,0,0.4); 
+}
+
+/* For IE */
+body {
+	scrollbar-face-color: rgba(1,148,1,0.8);
+}
+
+/* For other browsers */
+.jspVerticalBar {
+	width: 12px;
+	background: transparent;
+}
+
+.jspTrack {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+.jspDrag {
+    border-radius: 10px;
+    background: rgba(1,148,1,0.8); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.jspScrollable, .jspContainer, .scroll-pane {
+    width: 100% !important;
+}
+
+.jspPane {
+    width: calc(100% - 14px) !important;
+}
+
+.scroll-pane {
+    max-height: 275px;
+    overflow-y: scroll;
+}

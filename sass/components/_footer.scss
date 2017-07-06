@@ -1,0 +1,100 @@
+#block-panels-mini-footer {
+  #mini-panel-footer {
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    box-sizing: border-box;
+
+    @include breakpoint(768px) {
+      font-size: 16px;
+    }
+    @include breakpoint(1150px) {
+      padding-right: 144px;
+      height: 77px;
+    }
+    @include breakpoint(1360px) {
+      padding: 0 1em;
+    }
+  }
+
+  .pane-menu-menu-footer-links {
+    
+    ul.menu {
+      text-align: center;
+      margin: 0;
+      display: flex;
+      padding: 0;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+
+    .menu li {
+      border-bottom: 0px;
+      float: none;
+      margin-left: 0;
+      list-style: none;
+      padding: 0 5px;
+
+      a {
+        color: white;
+      }
+    }
+
+    @include breakpoint(768px) {
+      width: auto;
+      display: inline-block;
+    }
+    @include breakpoint(1150px) {
+      line-height: 45px;
+    }
+  }
+
+  .copyright {
+  	color: white;
+  	text-align: center;
+    width: 100%;
+
+    @include breakpoint(768px) {
+      display: inline-block;
+    }
+    @include breakpoint(890px) {
+      width: auto;
+      margin-right: 2em;
+    }
+    @include breakpoint(1150px) {
+      line-height: 45px;
+    }
+  }
+
+  .iec-logo {
+    flex: 100%;
+
+    @include breakpoint(768px) {
+      p {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .certificates {
+    display: flex;
+    flex: 0;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+    @include breakpoint(1150px) {
+      position: absolute;
+      right: 10px;
+      top: 8px;
+    }
+
+    .certificate img {
+      width: auto;
+      height: 180px;
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,1121 @@
+article.main-content p {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+.boxed {
+	border-radius: 10px;
+	border: 2px solid #689a04;
+	padding: 1em;
+	margin: 1em 0;
+	position: relative;
+  box-sizing: border-box;
+
+	.pane-title {
+    background-color: white;
+		position: absolute;
+		margin: 0;
+		top: -15px;
+		padding: 0 0.5em;
+		display: inline-block !important;
+    font-size: 1.15em;
+
+		&.ctools-collapsible-handle {
+		  padding-left: 1em;
+		}
+	}
+
+	.ctools-toggle {
+		position: absolute;
+		top: -10px;
+		z-index: 1;
+	}
+}
+
+.node-type-panopoly-landing-page .wwm-sanderson {
+	.row {
+		margin: 0;
+		padding: 1em;
+	}
+	.row:first-child {
+		background: url("../images/banner.jpg") center center;
+		background-size: cover;
+    border: 2px solid #689a04;
+    border-radius: 10px;
+    margin: 0 0.5em;
+	}
+
+	.row:nth-child(2) {
+		background: white;
+    padding: 1em;
+    padding-top: 0;
+	}
+
+	.row:nth-child(3) {
+		background: #689a04;
+	}
+}
+
+.node-type-training-roundtable {
+  .page-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    background: url(/files/media/roundtable_logo.3.png) no-repeat;
+    background-size: 86px 48px;
+    background-position-y: center;
+    padding-left: 90px;
+
+    @include breakpoint(519px) {
+      font-size: 1.8em;
+    }
+  }
+
+  .pane-node-title h2 {
+    margin: 0;
+  }
+
+  .pane-node-field-roundtable-session-date {
+    font-size: 1em;
+    font-weight: bold;
+
+    @include breakpoint(550px) {
+      font-size: 1.2em;
+    }
+
+    .pane-title, .pane-content {
+      display: inline-block;
+      font-size: 1.2em;
+      margin: 0;
+    }
+  }
+
+  .pane-node-field-video {
+    margin-top: 0.5em;
+  }
+
+  .pane-node-field-resources {
+    .field-collection-view {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  #edit-field-roundtable-session-date-value-jump-wrapper {
+    padding: 0;
+    width: 100%;
+
+    .views-widget {
+      margin-top: 0.5em;
+    }
+    .form-item-field-roundtable-session-date-value-jump-value {
+      margin: 0;
+    }
+    .date-year.form-select {
+      margin: 0;
+    }
+  }
+}
+
+.node-type-training-a-to-z-library {
+  .page-title {
+    background: url(/files/media/image_uploads/a-to-z-library-logo.170x130.png) no-repeat;
+    background-size: 62px 48px;
+    background-position-y: center;
+    padding-left: 68px;
+    font-size: 1.2em;
+
+    @include breakpoint(519px) {
+      font-size: 1.8em;
+    }
+  }
+
+  .pane-node-title h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+
+    @include breakpoint(550px) {
+      font-size: 1.6em;
+      margin-top: 10px;
+    }
+  }
+}
+
+.node-type-course,
+.node-type-training-power-to-publish {
+  .page-title {
+    background: url(/files/media/image_uploads/power-to-publish_logo.133x130.png) no-repeat;
+    background-size: 49px 48px;
+    background-position-y: center;
+    padding-left: 54px;
+    font-size: 1.2em;
+
+    @include breakpoint(519px) {
+      font-size: 1.8em;
+    }
+  }
+
+  .pane-node-title h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+
+    @include breakpoint(550px) {
+      font-size: 1.6em;
+    }
+  }
+
+  .field--name-field-training-week,
+  .field--name-field-training-step {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+
+    @include breakpoint(550px) {
+      font-size: 1.6em;
+    }
+
+    .field__label, .field__items {
+      display: inline-block;
+      float: none;
+    }
+  }
+}
+
+.myriad-left-sidebar {
+  .panel-myriad-layout {
+    padding: 0 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-flow: row wrap;
+
+
+    &>div:not([class]) {
+      overflow: hidden;
+    }
+  }
+  .main-content {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 2em;
+
+    @include breakpoint(950px) {
+      margin-left: 1em;
+      flex: 1 0;
+      order: 1;
+    }
+  }
+  .sidebar {
+    width: 100%;
+    min-width: 275px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+
+    @include breakpoint(950px) {
+      display: inline-block;
+      margin-right: 1em;
+      flex: 0 300px;
+      margin-top: 10px;
+    }
+
+    > .panel-pane {
+      flex: 1 300px;
+      display: inline-block;
+      margin: 0.5em;
+
+      @include breakpoint(375px) {
+        min-width: 300px;
+      }
+    }
+  }
+}
+
+.tabbed-course {
+  .panel-myriad-layout {
+    padding: 0 1em;
+    margin-bottom: 1em;
+    
+    .row-two {
+      border: 2px solid #689a04;
+      padding: 1em;
+      border-radius: 5px;
+      display: flex;
+      flex-flow: row wrap;
+
+      .main-content {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 2em;
+
+        @include breakpoint(950px) {
+          margin-left: 1em;
+          flex: 1 0;
+          order: 1;
+        }
+      }
+      .sidebar {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+
+        @include breakpoint(950px) {
+          display: inline-block;
+          margin-right: 1em;
+          flex: 0 300px;
+        }
+
+        > .panel-pane {
+          flex: 1 200px;
+          min-width: 200px;
+
+          @include breakpoint(375px 949px) {
+            flex: 1 300px;
+            min-width: 300px;
+            display: inline-block;
+            margin: 0.5em;
+          }
+        }
+      }
+    }
+
+    .pane-node-title {
+      h2.pane-title {
+        margin-bottom: 0.5em;
+      }
+    }
+  }
+}
+
+.pane-node-field-video {
+  margin-bottom: 10px;
+}
+
+.sidebar {
+  div.panel-pane div.node.node-advertisement {
+    &.node-ad-image-portrait,
+    &.node-ad-amazon-book {
+      .panel-display {
+        padding: 0;
+        margin: 0;
+      }
+
+      .col-1 {
+        float: none;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+      }
+      .col-2 {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  } 
+}
+
+.pane-ad-cycles-ad-random {
+  .panel-display {
+    padding: 0;
+    margin-bottom: 0;
+
+    .col-1, .col-2 {
+      width: 100%;
+    }
+  }
+
+  .field--name-field-amazon-book-listing .field__item {
+    text-align: center;
+  }
+
+  .views-slideshow-cycle-main-frame-row {
+    .views-row {
+      @include breakpoint(0px 949px) {
+        margin: 0;
+      }
+    }
+    h2 {
+      margin: 0.5em 0 0 0;
+      text-align: center;
+    }
+    h3 {
+      margin: 0 0 0.5em 0;
+      text-align: center;
+    }
+  }
+
+  .pane-node-field-ad-image {
+    text-align: center;
+  }
+}
+
+div.panel-pane div.node.node-advertisement {
+ 	background-color: #f5f5f5;
+  padding: 1em;
+	border-radius: 10px;
+	border: 2px solid #689a04;
+	margin-bottom: 2em;
+	width: 100%;
+	box-sizing: border-box;
+
+  &.node-ad-image-portrait,
+  &.node-ad-amazon-book {
+    .col-1 {
+      text-align: center;
+    }
+  }
+
+  &.node-ad-image-landscape {
+    text-align: center;
+  }
+
+  .pane-node-title {
+    text-align: center;
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 0.5em;
+    }
+  }
+  .pane-node-field-ad-sub-headline {
+    text-align: center;
+  }
+
+  .file-image img {
+    margin: auto;
+  }
+  .file-video iframe {
+    display: table;
+    margin: auto;
+  }
+
+  .field-items {
+    margin-left: 0;
+  }
+}
+
+.pane-node-field-amazon-book-listing {
+  display: block;
+
+  .field-name-field-amazon-book-listing {
+    border: 0px;
+  }
+}
+
+.pane-node-field-call-to-action {
+  display: table;
+  margin: 1em auto 0;
+  padding: 6px 12px !important;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #e03333;
+
+  a {
+    color: #fff;
+    white-space: normal;
+  }
+
+  &:hover {
+    background-color: #ff4242;
+    text-decoration: none;
+  }
+}
+
+div.panel-pane div.node.node-testimonial {
+	background-color: #f5f5f5;
+  padding: 1em;
+	border-radius: 10px;
+	border: 2px solid #689a04;
+  margin-bottom: 2em;
+
+  .field--name-field-amazon-book-listing {
+    margin-bottom: 0.1em;
+
+    a {
+      color: black;
+  
+      &:hover {
+        color: #009a43;
+        text-decoration: underline;
+      }
+    }
+  }
+
+	.pane-node-field-video {
+		text-align: center;
+	}
+
+	.book-thumbnail {
+		float: left;
+		margin-right: 1em;
+	}
+
+	.row-one {
+		.col-1 {
+			float: left;
+			margin-right: 1em;
+		}
+		.col-2 {
+			.pane-node-field-amazon-book-listing {
+				display: block;
+
+        .field--name-field-amazon-book-listing a {
+          color: black;
+
+          &:hover {
+            color: white;
+            text-decoration: underline;
+          }
+        }
+
+				.pane-title {
+			  	display: inline-block;
+          float: left;
+
+          &:after {
+            content: '\00a0';
+          }
+				}
+			}
+		}
+	}
+
+  .row-two .col-1 {
+    float: left;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .row-2 {
+    .pane-node-field-amazon-book-listing {
+      display: block;
+      overflow: hidden;
+
+      .pane-title, .field-name-field-amazon-book-listing {
+        display: inline-block;
+        float: left;
+
+        &:after {
+          content: '\00a0';
+        }
+      }
+    }
+  }
+
+  .field-items {
+    margin-left: 0;
+  }
+}
+
+div.panel-pane div.node.node-testimonial.node-testimonial-video {
+	padding: 0;
+
+	.pane-node-field-video {
+		background: #d8debc;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+		padding: 1em;
+	}
+	.row-2 {
+		padding: 0 1em 1em 1em;
+    margin-top: 1em;
+
+    .panel-pane.pane-node-title h2 {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+	}
+}
+
+div.panel-pane div.node.node-testimonial.node-testimonial-image {
+	padding: 0;
+
+	.row-one {
+		background: #d8debc;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+		color: black;
+		padding: 1em;
+
+		.pane-node-title h2 {
+			margin: 0;
+		}
+	}
+
+	.row-two {
+		padding: 0 1em 1em 1em;
+    margin-top: 1em;
+
+    .field--name-field-written-testimonial p {
+      margin-bottom: 0;
+    }
+	}
+}
+
+.action-links {
+	list-style: none;
+    font-size: 11px;
+
+	a {
+		border-radius: 5px;
+	    margin: 0 5px 0 0;
+	    padding: 0 5px 0 25px;
+	    background: $primary url('../images/buttons.png') -800px 50% no-repeat;
+	    color: #fff;
+	    float: left;
+	    line-height: 20px
+	}
+}
+
+#block-tb-megamenu-main-menu {
+	background: #6fae1b;
+	background: linear-gradient(to bottom, #1e5799 0%,#badc68 0%,#6fae1b 98%,#6fae1b 100%);
+
+	.block__content {
+		display: table;
+    	margin: 0 auto;
+	}
+
+	.tb-megamenu {
+		background: #6fae1b;
+		background: linear-gradient(to bottom, #1e5799 0%,#badc68 0%,#6fae1b 98%,#6fae1b 100%);
+
+		.nav {
+			& > li > a {
+				border: 0;
+				font-weight: normal;
+
+				&:hover {
+					background: linear-gradient(to bottom, #1e5799 0%,#a7c45d 0%,#538014 99%,#538014 100%);
+					color: white;
+				}
+			}
+			& > li.active > a {
+				background: linear-gradient(to bottom, #1e5799 0%,#a7c45d 0%,#538014 99%,#538014 100%);
+			}
+		}
+
+		.dropdown-menu {
+			border-bottom: 3px solid #9bcb3b;
+		}
+	}
+}
+
+.pane-nodequeue-1-panel-pane-1 {
+  .pane-content {
+    margin-top: 1em;
+    margin-bottom: -1em;
+  }
+
+  .ui-state-hover, .ui-state-focus, .ui-state-active {
+    .ui-icon {
+      filter: invert(100%) brightness(100);
+    }
+  }
+  .ui-accordion-header {
+    border: 1px solid #689a04;
+    margin: 5px 0 !important;
+    width: 100%;
+    box-sizing: border-box;
+    background: white;
+
+    &:hover {
+      background-color: lighten($primary, 10%);
+
+      a {
+        color: white;
+      }
+    }
+  }
+  .ui-accordion-header-active {
+    border-bottom: 0px;
+    color: white;
+    background-color: $primary;
+
+    &:hover {
+      background-color: $primary;
+    }
+
+    a {
+      color: white;
+    }
+  }
+  .ui-accordion-content {
+    border: 1px solid #689a04;
+    border-top: 0px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    padding: 0;
+  }
+  .views-row {
+    line-height: 2;
+    border-bottom: 1px solid #ddd;
+
+    &:last-child {
+      border-bottom: 0px;
+
+      a {
+        border-radius: 0 0 4px 4px;
+      }
+    }
+
+    &:hover {
+      background-color: #e9efcc;
+    }
+
+    .field-content {
+      display: block;
+
+      a {
+        display: block;
+        padding: 0 2.2em;
+
+        &:hover {
+          color: black;
+          text-decoration: none;
+        }
+      }
+    }
+
+    a.active {
+      color: white;
+      background-color: lighten($primary, 10%);
+    }
+  }
+  .views-row-even {
+    background-color: #e6e6e6;
+  }
+}
+
+.views-slideshow-cycle-main-frame-row {
+  width: 100%;
+
+  .views-slideshow-cycle-main-frame-row-item {
+    margin-top: 0;
+    padding-top: 2em;
+  }
+}
+#views_slideshow_cycle_teaser_section_ad_cycles-ad_random {
+  width: 100% !important;
+}
+
+table.fc-border-separate {
+  border-collapse: collapse;
+  border: 1px solid grey;
+}
+
+.fc-day.ui-widget-content {
+  border: 1px solid #cccccc;
+}
+
+.row {
+  margin: 0;
+  padding: 0 1em;
+}
+
+.pane-course-outline,
+.pane-course-outline-and-navigation {
+  padding: 0;
+  margin-top: 0;
+
+  .pane-title {
+    margin-left: 1em;
+  }
+
+  .course-title {
+    margin: 0;
+    text-align: center;
+    line-height: 1.6;
+    background-color: #0F753D;
+    border-radius: 8px 8px 0 0;
+    color: white;
+    font-weight: normal;
+    font-size: 1.1em;
+
+    &:after {
+      content: " Outline";
+    }
+  }
+
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+
+    li {
+      list-style: none;
+      border-bottom: 1px solid #ddd;
+      padding: 0 1em;
+      display: inline-block;
+      width: 100%;
+      box-sizing: border-box;
+
+      &:nth-child(odd) {
+        background-color: white;
+      }
+      &:nth-child(even) {
+        background-color: #e6e6e6;
+      }
+      &:last-child {
+        border-radius: 0 0 10px 10px;
+      }
+
+      &:hover {
+        background-color: #e9efcc;
+
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+
+      &.active {
+        a {
+          color: #EA4335;
+        }
+      }
+
+      > div {
+        display: inline-block;
+        text-transform: capitalize;
+        float: right;
+
+        &:before {
+          content: "\00a0 - ";
+        }
+      }
+    }
+  }
+
+  #course-nav {
+    margin: 0.5em 0;
+    text-align: center;
+    padding: 0;
+
+    li {
+      list-style: none;
+      font-size: 14px;
+      display: inline-block;
+      background-color: #0d7339;
+      padding: 3px 4px;
+      border-radius: 5px;
+      width: auto;
+
+      &:hover {
+        background-color: #8bbf50;
+      }
+
+      &::before {
+        margin-right: 3px;
+        color: white;
+      }
+    }
+
+    a {
+      color: white;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .course-nav-prev{
+      &::before {
+        content: "\f0a8";
+        font-family: "FontAwesome";
+      }
+    }
+
+    .course-nav-back {
+      &::before {
+        content: "\f0aa";
+        font-family: "FontAwesome";
+      }
+    }
+
+    .course-nav-next {
+      &::before {
+        content: "\f0a9";
+        font-family: "FontAwesome";
+      }
+    }
+  }
+}
+
+.page-node-course-outline {
+  .course-outline-overview-form {
+    padding: 0 1em;
+  }
+
+  #course-objects {
+    width: 100%;
+
+    td div[id*="title"] {
+      font-weight: bold;
+    }
+
+    ul {
+      margin: 0.5em 0;
+      padding-left: 1em;
+
+      @include breakpoint(590px) {
+        column-count: 3;
+      }
+    }
+  }
+}
+
+.views-field-edit-node  a,
+a[id*="edit-fields"]:not([title="Change widget type."]),
+a[title="Export instance"] {
+  text-transform: capitalize;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+  color: #fff;
+  background-color: #0f753b;
+  text-shadow: none;
+}
+
+.vertical-tabs {
+  fieldset.vertical-tabs-pane {
+    padding: 1em;
+  }
+}
+
+#field-display-overview .field-formatter-settings-edit {
+  cursor: pointer;
+  padding: 3px 10px;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  font-weight: normal;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  background-color: #0f753b;
+  border-color: #0f743a;
+}
+
+td {
+  .description {
+    font-size: 14px;
+    margin-left: 1em;
+  }
+}
+
+.field--name-field-resources {
+  .field-collection-view {
+    margin: 0;
+    padding: 0;
+
+    .field__item {
+      display: list-item;
+      margin-left: 1.5em;
+    }
+  }
+}
+
+.advanced-help-link {
+  float: left;
+}
+
+.pane-panopoly-taxonomy-panel-pane-2,
+.pane-filtered-roundtable-sessions-panel-pane-1,
+.pane-roundtable-sessions-panel-pane-1 {
+  .views-field-title .field-content {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+  }
+  .views-field-field-roundtable-session-date .field-content {
+    text-align: center;
+    margin: 0;
+  }
+  .views-field-field-training-description {
+    text-align: justify;
+  }
+
+  .views-field-view-node {
+    text-align: right;
+
+    a {
+      color: red;
+      font-weight: bold;
+    }
+  }
+}
+
+.page-coaching-programs-roundtable-sessions {
+  .page-title {
+    background: url(/files/media/roundtable_logo.3.png) no-repeat;
+    background-size: 86px 48px;
+    background-position-y: center;
+    padding-left: 90px;
+  }
+
+  #edit-field-roundtable-session-date-value-min-wrapper,
+  #edit-field-roundtable-session-date-value-max-wrapper,
+  #edit-field-roundtable-session-date-value-jump-value {
+    margin-top: 0.5em;
+  }
+
+  .views-exposed-form {
+    text-align: center;
+
+    .views-exposed-widget {
+      padding: 0;
+      float: none;
+    }
+    .form-item {
+      margin: 0;
+
+      input {
+        margin: 0;
+      }
+    }
+    .date-padding {
+      float: none;
+    }
+
+    .date-year.form-select {
+      margin: 0;
+    }
+  }
+}
+
+.page-admin-help {
+  ul { 
+     list-style-type: disc; 
+  }
+  ul ul, ol ul { 
+     list-style-type: circle; 
+  }
+  ol ol ul, ol ul ul, ul ol ul, ul ul ul {
+      list-style-type: square;
+  }
+  li {
+    margin-left: 2em;
+    margin-bottom: 0.8em;
+    line-height: normal;
+  }
+}
+
+.view-empty {
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #689a04;
+  padding: 1em;
+  margin: 1em 0;
+  position: relative;
+  box-sizing: border-box;
+  color: red;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.view {
+  .pager li {
+    display: inline-block;
+  }
+}
+
+.pane-views-68df6443216479c90da4235283a03ab4 {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+.pane-categories-panel-pane-1,
+.pane-news-test-panel-pane-3,
+.pane-articles-test-panel-pane-7,
+.pane-press-releases-test-panel-pane-3,
+.pane-panopoly-faq-panel-pane-5 {
+  .views-row {
+    display: inline-block;
+    width: 49%;
+
+    @include breakpoint(667px 943px) {
+      display: inline-block;
+      width: 160px;
+      margin-right: 10px;
+    }
+  }
+}
+.pane-categories-panel-pane-4 {
+  .views-row {
+    display: inline-block;
+    width: 160px;
+    margin-right: 10px;
+  }
+}
+
+.pane-ad-cycles-ad-slideshow {
+  .views-slideshow-cycle-main-frame,
+  .views-slideshow-cycle-main-frame-row {
+    width: 100% !important;
+  }
+
+  .col-1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .field--name-field-ad-image {
+    text-align: center;
+  }
+  .field--name-field-ad-sub-headline {
+    text-align: center;
+  }
+  .pane-node-title h2 {
+    margin: 0;
+  }
+
+  .views-slideshow-controls-text {
+    text-align: center;
+  }
+  .views-slideshow-controls-text-pause {
+    margin: 0.5em;
+  }
+  .views-slideshow-controls-text-previous a:before {
+    content: "\f104";
+    font-family: FontAwesome;
+    color: inherit;
+    margin-right: 0.3em;
+  }
+  .views-slideshow-controls-text-next a:after {
+    content: "\f105";
+    font-family: FontAwesome;
+    color: inherit;
+    margin-left: 0.3em;
+  }
+
+  .vscc-controls {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    height: 2em;
+    
+    span {
+      vertical-align: middle;
+      display: inline-block;
+    }
+    .vscc_controls_pause a {
+      line-height: 2em;
+    }
+  }
+}

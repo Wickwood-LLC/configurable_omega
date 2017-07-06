@@ -1,0 +1,177 @@
+.form-item {
+	font-size: 16px;
+	margin-bottom: 10px;
+
+	label {
+		display: inline-block;
+	}
+
+	input, keygen, select {
+		display: inline-block;
+		background-color: white;
+	}
+	
+	input, textarea, keygen, select, button {
+		font-size: 16px;
+		max-width: 100%;
+	}
+
+	th {
+		background-color: initial;
+	}
+
+	tr.odd{
+		background-color: #FAFAF8;
+	}
+	tr.even{
+		background-color: #E6E6E6;
+	}
+
+	.container-inline-date .form-item input {
+		margin: 0;
+	}
+}
+
+.form-buttons {
+	text-align: center;
+
+	input[type="submit"] {
+		display: inline-block;
+	}
+}
+
+input[type="submit"]{
+	display: inline-table;
+    padding: 6px 12px;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    &:hover, &:focus {
+    	background-color: #78b32c;
+    	color: white;
+    }
+}
+#panels-dnd-save {
+	margin-right: 0.5em;
+}
+
+#module-filter-show-wrapper .form-item {
+    display: inline-block;
+
+    label {
+    	margin-left: 0;
+    }
+}
+
+fieldset {
+	margin-bottom: 1em;
+    border: 2px solid #689a04;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    min-width: 0;
+}
+
+html.js fieldset.collapsed {
+	border-width: 2px;
+	height: 2em;
+}
+
+.form-actions {
+	text-align: center;
+	background: #eee;
+    border: 1px solid #ddd;
+    padding: 9px;
+    margin-top: 10px;
+    margin-bottom: 0;
+
+	#edit-submit {
+		display: inline-block;
+		background-color: #0f753b;
+		color: white;
+
+		&:hover {
+			background-color: #7fb739;
+		}
+	}
+	[type="submit"] {
+		display: inline-block;
+    	margin-left: 10px;
+	}
+}
+
+.page-manager-save-page-form {
+	text-align: center;
+
+	.changed-notification {
+		text-align: left;
+	}
+
+	[type="submit"] {
+		display: inline-block;
+    	margin: 10px;
+	}
+}
+
+.field-type-addressfield,
+[id="field-phone-values"] {
+	.form-item {
+		margin-bottom: 0.5em;
+	}
+}
+
+.training-edit-page {
+	.node-form {
+		padding: 0 1em;
+		margin-bottom: 1em;
+	}
+	.pane-node-form-title {
+		.pane-title {
+			display: inline-block;
+			font-weight: bold;
+		}
+		.form-item {
+			display: inline-block;
+			width: calc(100% - 42px);
+		}
+		input {
+			width: 100%;
+		}
+	}
+	.form-item-path-alias input {
+		width: calc(100% - 350px);
+	}
+	#field-resource-link-values {
+		.link-field-subrow {
+			display: inline-block;
+			width: calc(100% - 90px);
+			vertical-align: middle;
+		}
+		.link-field-title {
+			.form-item {
+				white-space: normal;
+			}
+			.form-text {
+				width: 86%;
+			}
+		}
+		input[value="Remove"] {
+			display: inline-block;
+			background-color: #ef9292;
+			color: white;
+
+			&:hover {
+				background-color: red;
+			}
+		}
+	}
+}

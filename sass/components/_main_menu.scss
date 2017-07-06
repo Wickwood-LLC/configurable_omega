@@ -1,0 +1,321 @@
+#block-superfish-1 {
+  position: static;
+  margin-top: 1em;
+  text-align: center;
+  transition-property: background, padding;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+
+  @include breakpoint(718px) {
+    display: table;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  &.sticky-menu {
+    position: fixed;
+    top: 0;
+    z-index: 500;
+    margin-top: 0;
+    background: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    box-shadow: 0 0px 10px #333;
+    @include breakpoint (718px) {
+      padding-bottom: 0;
+    }
+
+    .block__content {
+      display: inline-block;
+      width: 100%;
+      padding: 0 15px;
+
+      @include breakpoint (718px) {
+        width: auto;
+        padding: 0;
+      }
+    }
+  }
+
+  .block__content,
+  &.sticky-menu .block-content {
+    display: inline-block;
+    width: 100%;
+
+    @include breakpoint (718px) {
+      width: auto;
+    }
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  #superfish-1 {
+    background: #6fae1b;
+    background: linear-gradient(to bottom, #1e5799 0%, #8bbf50 0%, #6fae1b 98%, #6fae1b 100%);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+
+    >li:first-child {
+      a, a:hover, a.active {
+        border-radius: 5px 0 0 5px;
+      }
+    }
+    >li:last-child a {
+      border-radius: 0 5px 5px 0;
+    }
+
+    li {
+      background: transparent;
+
+      &.sfHover {
+        ul {
+          top: 42px;
+          
+          @include breakpoint(718px 756px) {
+            top: 36px;
+          }
+          @include breakpoint(757px 795px) {
+            top: 37px;
+          }
+          @include breakpoint(796px 873px) {
+            top: 38px;
+          }
+          @include breakpoint(874px 951px) {
+            top: 40px;
+          }
+        }
+      }
+
+      a {
+        border: 0px;
+        color: white;
+        padding: 12px;
+
+        &.sf-with-ul {
+          padding-right: 28px;
+        }
+
+        &:hover, &.active, &:focus {
+          background: linear-gradient(to bottom, #1e5799 0%,#a7c45d 0%,#538014 99%,#538014 100%);
+        }
+        &:focus {
+          color: #f3e408;
+        }
+      }
+    }
+
+    li li.sfHover > ul {
+      top: 0;
+    }
+
+    li.menuparent {
+      ul {
+        background: white;
+        min-width: 12em !important;
+        width: auto !important;
+        padding: 0 !important;
+        overflow: visible !important;
+        border-radius: 0;
+
+        .sf-sub-indicator {
+          filter: invert(0.75);
+        }
+
+        >li {
+          border-right: 1px solid #6fae1b;
+          border-left: 1px solid #6fae1b;
+
+          &:last-child {
+            border-radius: 0 0 5px 5px;
+            border-bottom: 2px solid #6fae1b;
+
+            a {
+              border-radius: 0 0 5px 5px;
+            }
+          }
+
+          &:hover {
+            > a {
+              background-color: #e9efcc;
+              color: black;
+            }
+          }
+
+          &.menuparent.sfHover:last-child {
+            border-bottom-right-radius: 0;
+            > a {
+              border-bottom-right-radius: 0;
+            }
+          }
+
+          &.menuparent ul li:last-child {
+            border-bottom-left-radius: 0px;
+            > a {
+              border-bottom-left-radius: 0px;
+            }
+          }
+        }
+
+        a {
+          background: white;
+          color: black;
+        }
+      }
+    }
+  }
+
+  #superfish-1-toggle {
+    display: block;
+    text-align: center;
+    background-color: #7cb634;
+    color: white;
+    border-radius: 10px;
+    border-left: 0px;
+    padding: 0.5em;
+    font-size: 1.2em;
+
+    &.sf-expanded {
+      background-color: #2ea328;
+      border-radius: 10px 10px 0 0;
+      font-weight: normal;
+
+      span:before {
+        content: "\f0d7";
+        font-family: "FontAwesome";
+        margin-right: 10px;
+      }
+    }
+
+    span:before {
+      content: "\f0da";
+      font-family: "FontAwesome";
+      margin-right: 10px;
+    }
+  }
+
+  #superfish-1-accordion {
+    border: 1px solid #689a04;
+    border-top: 0px;
+    border-radius: 0 0 10px 10px;
+    box-sizing: border-box;
+
+    li {
+      background-color: white;
+      border: 1px solid #ddd;
+      box-sizing: border-box;
+
+      &.active-trail, &.active-trail:nth-child(even) {
+        background-color: #0f753b;
+
+        > a {
+          color: white;
+
+          &:hover {
+            background-color: #0f753b;
+          }
+        }
+      }
+
+      &.menuparent>a.menuparent:before {
+        content: "\f0da";
+        font-family: "FontAwesome";
+        margin-right: 10px;
+        margin-left: -17px;
+      }
+
+      &.menuparent.sf-expanded{
+        >a.menuparent{
+          font-weight: normal;
+
+          &:before {
+            content: "\f0d7";
+            font-family: "FontAwesome";
+            margin-right: 10px;
+            margin-left: -17px;
+          }
+        }
+      }
+
+      &.menuparent>ul{
+        padding-left: 10px;
+        box-sizing: border-box;
+
+        >li:last-child {
+          border-radius: 0px;
+
+          a {
+            border-radius: 0px;
+          }
+        }
+      }
+
+      &:nth-child(even) {
+        background-color: #e6e6e6;
+      }
+
+      &:last-child {
+        border-radius: 0 0 10px 10px;
+
+        > a:last-child {
+          border-radius: 0 0 10px 10px;
+        }
+      }
+
+      a {
+        border: 0px;
+        color: black;
+        padding-left: 34px;
+
+        &:hover {
+          background-color: #e9efcc;
+        }
+        &:focus {
+          background-color: initial;
+        }
+      }
+    }
+  }
+
+  @include breakpoint(718px 756px) {
+    font-size: 12px;
+  }
+  @include breakpoint(757px 795px) {
+    font-size: 13px;
+  }
+  @include breakpoint(796px 873px) {
+    font-size: 14px;
+  }
+  @include breakpoint(874px 951px) {
+    font-size: 16px;
+  }
+}
+
+#block-superfish-1 {
+  #logo img {
+    width: 0px;
+    transition: all 300ms cubic-bezier(0.165,0.840,0.440,1.000);
+  }
+  #logo.animate img {
+    width: 28px;
+    margin-right: 0.5em;
+  }
+
+  #site-title {
+    display: none;
+    margin: 0;
+    vertical-align: top;
+    line-height: 1;
+    transition: all 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+    text-indent: 300px;
+    white-space: nowrap;
+    box-sizing: content-box;
+
+    &.animate {
+      display: inline-block;
+      text-indent: 0;
+      padding-right: 0.3em;
+    }
+  }
+}
