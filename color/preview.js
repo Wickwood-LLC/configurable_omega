@@ -5,9 +5,6 @@
     callback: function(context, settings, form, farb, height, width) {
       // Background
       $('#preview', form).css('backgroundColor', $('#palette input[name="palette[bg]"]', form).val());
-
-      // Header
-      $('#preview #preview-header', form).css('backgroundColor', $('#palette input[name="palette[header]"]', form).val());
  
       // Text
       $('#preview #preview-main h2, #preview .preview-content', form).css('color', $('#palette input[name="palette[text]"]', form).val());
@@ -17,6 +14,9 @@
  
       // Titles
       $('#preview h1, #preview h2', form).css('color', $('#palette input[name="palette[titles]"]', form).val());
+
+      // Header
+      $('#preview #preview-header', form).css('backgroundColor', $('#palette input[name="palette[header]"]', form).val());
  
       // Footer
       $('#preview #preview-footer', form).css('backgroundColor', $('#palette input[name="palette[footer]"]', form).val());

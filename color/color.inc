@@ -5,10 +5,10 @@ $info = array();
 // Define the possible replaceable items and their labels.
 $info['fields'] = array(
  'bg' => t('Main background'),
- 'header' => t('Header'),
  'link' => t('Link color'),
  'text' => t('Text color'),
  'titles' => t('Titles'),
+ 'header' => t('Header'),
  'footer' => t('Footer'),
 );
 
@@ -21,10 +21,10 @@ $info['schemes'] = array(
     // Scheme colors (Keys are coming from $info['fields']).
     'colors' => array(
       'bg' => '#ffffff',
-      'header' => '#2677ff',
       'link' => '#ff7f00',
       'text' => '#777777',
       'titles' => '#333333',
+      'header' => '#2677ff',
       'footer' => '#2677ff', 
     ),
   ),
@@ -35,10 +35,10 @@ $info['schemes'] = array(
     // Scheme colors (Keys are coming from $info['fields']).
     'colors' => array(
       'bg' => '#008CFF',
-      'header' => '#2677ff',
       'link' => '#e800c1',
       'text' => '#ffffff',
       'titles' => '#ff26de',
+      'header' => '#2677ff',
       'footer' => '#2677ff',
     ),
   ),
