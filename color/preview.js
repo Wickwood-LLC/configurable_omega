@@ -7,19 +7,19 @@
       $('#preview', form).css('backgroundColor', $('#palette input[name="palette[bg]"]', form).val());
 
       // Header
-      $('#preview-header', form).css('backgroundColor', $('#palette input[name="palette[header]"]', form).val());
+      $('#preview #preview-header', form).css('backgroundColor', $('#palette input[name="palette[header]"]', form).val());
  
       // Text
       $('#preview #preview-main h2, #preview .preview-content', form).css('color', $('#palette input[name="palette[text]"]', form).val());
  
       // Links
-      $('#preview #preview-content a', form).css('color', $('#palette input[name="palette[link]"]', form).val());
+      $('#preview a', form).css('color', $('#palette input[name="palette[link]"]', form).val());
  
       // Titles
       $('#preview h1, #preview h2', form).css('color', $('#palette input[name="palette[titles]"]', form).val());
  
       // Footer
-      $('#preview-footer', form).css('backgroundColor', $('#palette input[name="palette[footer]"]', form).val());
+      $('#preview #preview-footer', form).css('backgroundColor', $('#palette input[name="palette[footer]"]', form).val());
  
       // CSS3 Gradients.
       // var gradient_start = $('#palette input[name="palette[header_top]"]', form).val();
