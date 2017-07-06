@@ -1169,19 +1169,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/components\/_jcaruosel_nav.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/components\/_jcaruosel_nav.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/sass\/components\/_login.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1234,19 +1221,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/components\/_scrollbars.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/components\/_scrollbars.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/sass\/components\/_user_pages.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1291,22 +1265,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/configurable-omega.styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/sass\/configurable-omega.styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/sass\/configurable-omega.styles.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/sass\/configurable-omega.styles.css.map",
-		"oF": 0
-		},
 	"\/sass\/configurable-omega.styles.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1315,8 +1273,8 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/sass\/configurable-omega.styles.css",
-		"oF": 0,
+		"oAP": "\/css\/configurable-omega.styles.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 0
 		},
@@ -1447,7 +1405,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 520934624,
-	"displayValue": "configurable_omega_old",
+	"displayValue": "configurable_omega",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-fry"
 	},

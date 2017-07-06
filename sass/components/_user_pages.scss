@@ -283,13 +283,6 @@
 		margin-bottom: 0;
 	}
 
-	.field-name-field-book-types .form-item.form-type-radio {
-		margin-bottom: 0;
-		width: auto;
-	    display: inline-block;
-	    margin-right: 8px;
-	}
-
 	.field-name-field-mailing-address {
 		@include flexifields(114px);
 
@@ -455,9 +448,6 @@
 		}
 	}
 
-	.field--name-field-publishing-stage {
-		margin-bottom: 1em;
-	}
 	.field--name-field-date {
 		display: inline-block;
     	margin-right: 1em;

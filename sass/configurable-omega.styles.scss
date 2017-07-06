@@ -231,24 +231,6 @@
 	}
 }
 
-.wwm-sanderson {
-	.row:first-child {
-		.radix-layouts-column2 {
-		    .panel-panel-inner {
-		    	padding: 0.5em;
-			    border-radius: 5px;
-			    background-color: white;
-			    border: 2px solid #9bcb3b;
-		    }
-
-			.page-block-title {
-				font-size: 1.4em;
-				margin: 0.2em;
-			}
-		}
-	}
-}
-
 #footer {
 	background: $primary;
 	position: relative;
@@ -359,43 +341,6 @@ img.testimonial-image {
 	font-size: 1.4em;
     text-align: center;
     margin: 0;
-}
-
-.top-box {
-	width: 100% !important;
-    border-style: solid;
-    border-color: #4285f4;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background-color: #bdddf3;
-}
-
-.middle-box {
-	border-style: solid;
-    border-color: #f3b500;
-    background-color: lightgoldenrodyellow;
-}
-
-.bottom-box {
-	border-style: solid;
-    border-color: #0f753b;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-color: #ecf2ce;
-}
-
-.top-box, .middle-box, .bottom-box {
-	h2 {
-		font-size: 20px;
-	    text-align: center;
-	    margin: 5px;
-	    display: inline-block;
-	    text-align: center;
-	    width: 100%;
-	}
-	p {
-		margin: 0 0.5em;
-	}
 }
 
 #overlay-content #page-title .limiter {
