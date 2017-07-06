@@ -178,3 +178,25 @@ function configurable_omega_breadcrumb($variables) {
     return $output;
   }
 }
+
+/**
+ * Implements template_process_html().
+ *
+ * Override or insert variables into the page template for HTML output.
+ */
+function configurable_omega_process_html(&amp;$variables) {
+  // Hook into color.module.
+  if (module_exists('color')) {
+    _color_html_alter($variables);
+  }
+}
+ 
+/*
+ * Implements template_process_page().
+ */
+function configurable_omega_process_page(&amp;$variables, $hook) {
+  // Hook into color.module.
+  if (module_exists('color')) {
+    _color_page_alter($variables);
+  }
+}
