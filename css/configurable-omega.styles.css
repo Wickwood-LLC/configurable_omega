@@ -2564,7 +2564,6 @@ These style are to make video from a media field as responsive. The video fields
   width: 100%; }
 
 #header {
-  background: white;
   box-sizing: border-box;
   padding: 0 15px;
   margin: 1em 0;
@@ -2730,7 +2729,6 @@ These style are to make video from a media field as responsive. The video fields
     display: inline-block; }
 
 #footer {
-  background: #0f753b;
   position: relative;
   z-index: 10; }
 
