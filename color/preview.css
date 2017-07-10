@@ -1,7 +1,7 @@
 /* ---------- Color form ----------- */
 
 #color_scheme_form #palette .form-item {
-		width: 28em;
+		width: 28em !important;
 }
 #color_scheme_form #palette .form-item label {
 		width: 20em;
