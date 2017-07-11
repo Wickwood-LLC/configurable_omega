@@ -17,6 +17,11 @@ h1, h2 { color: #dddddd; }
 #header {
 	background-color: #0f753b;
 }
+
+/* Footer */
+#footer {
+	background-color: #689a04;
+}
  
 /* Main content area links */
 #main-content a:link,
@@ -31,8 +36,3 @@ h1, h2 { color: #dddddd; }
 /* Main menu active links */
 #site-menu ul li.active-trail a,
 #site-menu ul li a.active { background: #eeeeee; color: #000000; }
-
-/* Footer */
-#footer {
-	background-color: #689a04;
-}
