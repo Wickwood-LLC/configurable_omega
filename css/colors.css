@@ -1,38 +1,33 @@
-/* Site background color */
-body { background-color: #ffffff; color: #333333; }
- 
-/* Lists */
-ul,
-li,
-ul li.collapsed,
-ul li.expanded,
-ul li.leaf {
- color: #777777;
+body {
+  background-color: #ffffff;
+  color: #333333;
 }
- 
-/* Site titles */
-h1, h2 { color: #dddddd; }
 
-/* Header */
+ul, li, ul li.collapsed, ul li.expanded, ul li.leaf {
+  color: #777777;
+}
+
+h1, h2 {
+  color: #dddddd;
+}
+
 #header {
-	background-color: #0f753b;
+  background-color: #0f753b;
 }
 
-/* Footer */
 #footer {
-	background-color: #689a04;
+  background-color: #689a04;
 }
- 
-/* Main content area links */
-#main-content a:link,
-#main-content a:visited,
-#main-content a:hover,
-#main-content a:focus,
-#main-content a:active { color: #6fae1b; }
- 
-/* Main menu links */
-#site-menu ul li a { color: #666666; }
- 
-/* Main menu active links */
-#site-menu ul li.active-trail a,
-#site-menu ul li a.active { background: #eeeeee; color: #000000; }
+
+#main-content a:link, #main-content a:visited, #main-content a:hover, #main-content a:focus, #main-content a:active {
+  color: #6fae1b;
+}
+
+#site-menu ul li a {
+  color: #666666;
+}
+
+#site-menu ul li.active-trail a, #site-menu ul li a.active {
+  background: #eeeeee;
+  color: #000000;
+}

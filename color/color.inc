@@ -72,3 +72,6 @@ $info['slices'] = array();
  
 // Base file for image generation.
 $info['base_image'] = 'color/base.png';
+
+// Reference color used for blending. Matches the base.png's colors.
+$info['blend_target'] = '#ffffff';
