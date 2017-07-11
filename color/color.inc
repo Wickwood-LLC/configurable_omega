@@ -5,11 +5,10 @@ $info = array();
 // Define the possible replaceable items and their labels.
 $info['fields'] = array(
  'bg' => t('Main background'),
- 'header' => t('Header'),
- 'link' => t('Link color'),
+ 'first_color' => t('First Color'),
+ 'second_color' => t('Second Color'),
+ 'highlight' => t('Higlight'),
  'text' => t('Text color'),
- 'titles' => t('Titles'),
- 'footer' => t('Footer'),
 );
 
 // Color schemes for the site.
@@ -21,11 +20,10 @@ $info['schemes'] = array(
     // Scheme colors (Keys are coming from $info['fields']).
     'colors' => array(
       'bg' => '#ffffff',
-      'header' => '#2677ff',
-      'link' => '#ff7f00',
-      'text' => '#777777',
-      'titles' => '#333333',
-      'footer' => '#004fd4', 
+      'first_color' => '#0f753b',
+      'second_color' => '#689a04',
+      'highlight' => '#6fae1b',
+      'text' => '#333333',
     ),
   ),
   // Let's create a scheme called Drupal Love.
@@ -35,11 +33,10 @@ $info['schemes'] = array(
     // Scheme colors (Keys are coming from $info['fields']).
     'colors' => array(
       'bg' => '#008CFF',
-      'header' => '#2677ff',
-      'link' => '#e800c1',
-      'text' => '#ffffff',
-      'titles' => '#ff26de',
-      'footer' => '#2677ff',
+      'first_color' => '#2677ff',
+      'second_color' => '#e800c1',
+      'highlight' => '#ffffff',
+      'text' => '#ff26de',
     ),
   ),
 );

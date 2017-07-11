@@ -1,5 +1,5 @@
 /* Site background color */
-body { background-color: #ffffff; color: #777777; }
+body { background-color: #ffffff; color: #333333; }
  
 /* Lists */
 ul,
@@ -15,7 +15,7 @@ h1, h2 { color: #333333; }
 
 /* Header */
 #header {
-	background-color: #2677ff;
+	background-color: #0f753b;
 }
  
 /* Main content area links */
@@ -23,7 +23,7 @@ h1, h2 { color: #333333; }
 #main-content a:visited,
 #main-content a:hover,
 #main-content a:focus,
-#main-content a:active { color: #ff7f00; }
+#main-content a:active { color: #6fae1b; }
  
 /* Main menu links */
 #site-menu ul li a { color: #666666; }
@@ -34,5 +34,5 @@ h1, h2 { color: #333333; }
 
 /* Footer */
 #footer {
-	background-color: #004fd4;
+	background-color: #689a04;
 }
