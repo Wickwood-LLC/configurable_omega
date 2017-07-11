@@ -16,7 +16,7 @@
       $('#preview a', form).css('color', $('#palette input[name="palette[highlight]"]', form).val());
 
       // Text
-      $('#preview #page', form).css('color', $('#palette input[name="palette[text]"]', form).val());
+      $('#preview #preview-page', form).css('color', $('#palette input[name="palette[text]"]', form).val());
  
       // CSS3 Gradients.
       // var gradient_start = $('#palette input[name="palette[header_top]"]', form).val();
