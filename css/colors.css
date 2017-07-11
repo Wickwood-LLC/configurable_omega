@@ -15,10 +15,6 @@ h1, h2 {
   background-color: #0f753b;
 }
 
-#footer {
-  background-color: #689a04;
-}
-
 #main-content a:link, #main-content a:visited, #main-content a:hover, #main-content a:focus, #main-content a:active {
   color: #6fae1b;
 }
@@ -30,4 +26,8 @@ h1, h2 {
 #site-menu ul li.active-trail a, #site-menu ul li a.active {
   background: #eeeeee;
   color: #000000;
+}
+
+#footer {
+  background-color: #689a04;
 }
