@@ -10,7 +10,7 @@
       $('#preview #preview-header', form).css('backgroundColor', $('#palette input[name="palette[first_color]"]', form).val());
  
       // Second Color
-      $('#preview #preview-footer', form).css('color', $('#palette input[name="palette[second_color]"]', form).val());
+      $('#preview #preview-footer', form).css('backgroundColor', $('#palette input[name="palette[second_color]"]', form).val());
  
       // Highlight
       $('#preview a', form).css('color', $('#palette input[name="palette[highlight]"]', form).val());
