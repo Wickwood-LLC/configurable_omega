@@ -10,13 +10,13 @@
       $('#preview #preview-header', form).css('backgroundColor', $('#palette input[name="palette[first_color]"]', form).val());
  
       // Second Color
-      $('#preview #preview-main h2, #preview .preview-content', form).css('color', $('#palette input[name="palette[second_color]"]', form).val());
+      $('#preview #preview-footer', form).css('color', $('#palette input[name="palette[second_color]"]', form).val());
  
       // Highlight
       $('#preview a', form).css('color', $('#palette input[name="palette[highlight]"]', form).val());
  
       // Text
-      $('#preview h1, #preview h2', form).css('color', $('#palette input[name="palette[text]"]', form).val());
+      $('#preview', form).css('color', $('#palette input[name="palette[text]"]', form).val());
  
  
       // CSS3 Gradients.
