@@ -25,11 +25,11 @@
       $('#preview #preview-sidebar #preview-block', form).css('border-color', $('#palette input[name="palette[sidebarborders]"]', form).val());
 
       // Footer wrapper background.
-      $('#preview #preview-footer-wrapper', form).css('background-color', $('#palette input[name="palette[second_color]"]', form).val());
+      $('#preview #preview-footer-wrapper', form).css('background-color', $('#palette input[name="palette[secondcolor]"]', form).val());
 
       // CSS3 Gradients.
-      var gradient_start = $('#palette input[name="palette[first_color]"]', form).val();
-      var gradient_end = $('#palette input[name="palette[first_color]"]', form).val();
+      var gradient_start = $('#palette input[name="palette[firstcolor]"]', form).val();
+      var gradient_end = $('#palette input[name="palette[firstcolor]"]', form).val();
 
       $('#preview #preview-header', form).attr('style', "background-color: " + gradient_start + "; background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(" + gradient_start + "), to(" + gradient_end + ")); background-image: -moz-linear-gradient(-90deg, " + gradient_start + ", " + gradient_end + ");");
 
