@@ -1,70 +1,61 @@
-/* ---------- Color form ----------- */
 
-#color_scheme_form #palette .form-item {
-		width: 28em !important;
-}
-#color_scheme_form #palette .form-item label {
-		width: 20em;
-    font-size: 10px;
-}
-/* ---------- Preview Styles ----------- */
+/* Bring in the rest of the theme's CSS styles. */
+@import url("../css/style.css");
 
-html.js #preview {
-		clear: both;
-		float: none !important;
+/* From color.css. */
+#preview, #preview-header {
+  background-color: #000000;
 }
-/* Overall */
+/* Undoing Seven's reset. */
+#preview #preview-header #preview-logo img {
+  border: 0;
+}
+
+/* ---------- Basic Preview Styles ----------- */
 
 #preview {
-		font: 300 20px/1.5"Helvetica Neue", Arial, 'Liberation Sans', FreeSans, sans-serif;
-		color: #333;
-		margin: 30px 0 50px 0;
-		padding: 0;
-		width: 100%;
+  width: 640px;
+  overflow: hidden;
+  font-size: 1em;
 }
-
-#preview-page {
-	background-color: #ffffff;
-	width: 85%;
-	margin: 0 auto;
+#preview #preview-header div.section,
+#preview #preview-navigation div.section,
+#preview #preview-featured div.section,
+#preview #preview-main {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
 }
-
-/* Header */
-#preview-header {
-		height: 100px;
-		padding: 0 1em 40px;
-		background-color: #2677ff;
+#preview #preview-content,
+#preview .sidebar {
+  display: inline;
+  float: left; /* LTR */
+  position: relative;
 }
-#preview-header h1 {
-		float: left;
-		margin: 0.25em 0 0;
+#preview #preview-content {
+  width: 720px;
 }
-/* Main menu */
-
-#preview-main-menu {
-		padding: 1.5em 0;
+#preview .sidebar {
+  width: 240px;
 }
-#preview-main-menu ul {
-		margin: 0;
+#preview #preview-content .section,
+.sidebar .section {
+  padding: 0 10px;
 }
-#preview-main-menu ul li a {
-		padding: 0.5em 1em;
+#preview #footer-wrapper {
+  padding: 35px 20px 30px;
 }
-/* Main content */
-#preview-main {
-		padding: 0.5em;
+#preview #footer-firstcolumn,
+#preview #footer-secondcolumn,
+#preview #footer-thirdcolumn,
+#preview #footer-fourthcolumn {
+  padding: 0 10px;
+  width: 220px;
+  display: inline;
+  float: left; /* LTR */
+  position: relative;
 }
-#preview h1, #preview h2 {
-		color: #333333;
-		font-weight: 300;
-		line-height: 1em;
-}
-#preview h1 {
-		font-size: 3em;
-}
-
-/* Footer */
-#preview-footer {
-	background-color: #004fd4;
-	padding: 1em 0.5em;
+#preview #footer {
+  width: 940px;
 }

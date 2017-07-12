@@ -1,77 +1,133 @@
 <?php
 
-$info = array();
- 
-// Define the possible replaceable items and their labels.
-$info['fields'] = array(
- 'bg' => t('Main background'),
- 'header' => t('Header'),
- 'link' => t('Link color'),
- 'text' => t('Text color'),
- 'titles' => t('Titles'),
- 'footer' => t('Footer'),
-);
+// Put the logo path into JavaScript for the live preview.
+drupal_add_js(array('color' => array('logo' => theme_get_setting('logo', 'bartik'))), 'setting');
 
-// Color schemes for the site.
-$info['schemes'] = array(
-  // Define the default scheme.
-  'default' => array(
-    // Scheme title.
-    'title' => t('Our site default colors'),
-    // Scheme colors (Keys are coming from $info['fields']).
-    'colors' => array(
-      'bg' => '#ffffff',
-      'header' => '#2677ff',
-      'link' => '#ff7f00',
-      'text' => '#777777',
-      'titles' => '#333333',
-      'footer' => '#004fd4', 
+$info = array(
+  // Available colors and color labels used in theme.
+  'fields' => array(
+    'bg' => t('Main background'),
+    'link' => t('Link color'),
+    'top' => t('Header top'),
+    'bottom' => t('Header bottom'),
+    'text' => t('Text color'),
+    'sidebar' => t('Sidebar background'),
+    'sidebarborders' => t('Sidebar borders'),
+    'footer' => t('Footer background'),
+    'titleslogan' => t('Title and slogan'),
+  ),
+  // Pre-defined color schemes.
+  'schemes' => array(
+    'default' => array(
+      'title' => t('Blue Lagoon (default)'),
+      'colors' => array(
+        'bg' => '#ffffff',
+        'link' => '#288CC9',
+        'top' => '#0779bf',
+        'bottom' => '#48a9e4',
+        'text' => '#3b3b3b',
+        'sidebar' => '#f6f6f2',
+        'sidebarborders' => '#f9f9f9',
+        'footer' => '#2d1e0f',
+        'titleslogan' => '#fffeff',
+      ),
+    ),
+    'Slate' => array(
+      'title' => t('Slate'),
+      'colors' => array(
+        'bg' => '#ffffff',
+        'link' => '#0073b6',
+        'top' => '#4a4a4a',
+        'bottom' => '#4e4e4e',
+        'text' => '#3b3b3b',
+        'sidebar' => '#feffff',
+        'sidebarborders' => '#d0d0d0',
+        'footer' => '#161617',
+        'titleslogan' => '#fffeff',
+      ),
+    ),
+    'Firehouse' => array(
+      'title' => t('Firehouse'),
+      'colors' => array(
+        'bg' => '#ffffff',
+        'link' => '#d6121f',
+        'top' => '#cd2d2d',
+        'bottom' => '#cf3535',
+        'text' => '#3b3b3b',
+        'sidebar' => '#f1f1f1',
+        'sidebarborders' => '#c2c2c2',
+        'footer' => '#1f1d1c',
+        'titleslogan' => '#fffeff',
+      ),
+    ),
+    'Plum' => array(
+      'title' => t('Plum'),
+      'colors' => array(
+        'bg' => '#fffdf7',
+        'link' => '#9d408d',
+        'top' => '#4c1c58',
+        'bottom' => '#593662',
+        'text' => '#301313',
+        'sidebar' => '#f8f3e7',
+        'sidebarborders' => '#e4e3d4',
+        'footer' => '#2C2C28',
+        'titleslogan' => '#fffeff',
+      ),
+    ),
+    'Ice' => array(
+      'title' => t('Ice'),
+      'colors' => array(
+        'bg' => '#ffffff',
+        'link' => '#019DBF',
+        'top' => '#d0d0d0',
+        'bottom' => '#c2c4c5',
+        'text' => '#4A4A4A',
+        'sidebar' => '#feffff',
+        'sidebarborders' => '#cccccc',
+        'footer' => '#24272c',
+        'titleslogan' => '#0b0b0b',
+      ),
     ),
   ),
-  // Let's create a scheme called Drupal Love.
-  'drupal_love' => array(
-    // Scheme title.
-    'title' => t('Drupal Love'),
-    // Scheme colors (Keys are coming from $info['fields']).
-    'colors' => array(
-      'bg' => '#008CFF',
-      'header' => '#2677ff',
-      'link' => '#e800c1',
-      'text' => '#ffffff',
-      'titles' => '#ff26de',
-      'footer' => '#2677ff',
+
+  // CSS files (excluding @import) to rewrite with new color scheme.
+  'css' => array(
+    'css/colors.css',
+  ),
+
+  // Files to copy.
+  'copy' => array(
+    'logo.png',
+  ),
+
+  // Gradient definitions.
+  'gradients' => array(
+    array(
+      // (x, y, width, height).
+      'dimension' => array(0, 0, 0, 0),
+      // Direction of gradient ('vertical' or 'horizontal').
+      'direction' => 'vertical',
+      // Keys of colors to use for the gradient.
+      'colors' => array('top', 'bottom'),
     ),
   ),
+
+  // Color areas to fill (x, y, width, height).
+  'fill' => array(),
+
+  // Coordinates of all the theme slices (x, y, width, height)
+  // with their filename as used in the stylesheet.
+  'slices' => array(),
+
+  // Reference color used for blending. Matches the base.png's colors.
+  'blend_target' => '#ffffff',
+
+  // Preview files.
+  'preview_image' => 'color/preview.png',
+  'preview_css' => 'color/preview.css',
+  'preview_js' => 'color/preview.js',
+  'preview_html' => 'color/preview.html',
+
+  // Base file for image generation.
+  'base_image' => 'color/base.png',
 );
-
-// Define the CSS file(s) that we want the Color module to use as a base. 
-$info['css'] = array( 'css/colors.css', );
-
- 
-/**
- * Default settings for the advanced stuff.
- * No need to edit these if you just want to play around with the colors.
- * Color wants these, otherwise it's not going to play.
- *
- */
- 
-// Files we want to copy along with the CSS files, let's define these later.
-$info['copy'] = array();
- 
-// Files used in the scheme preview.
-$info['preview_css'] = 'color/preview.css';
-$info['preview_js'] = 'color/preview.js';
-$info['preview_html'] = 'color/preview.html';
- 
-// Gradients
-$info['gradients'] = array();
- 
-// Color areas to fill (x, y, width, height).
-$info['fill'] = array();
- 
-// Coordinates of all the theme slices (x, y, width, height)
-// with their filename as used in the stylesheet.
-$info['slices'] = array();
- 
-// Base file for image generation.
-$info['base_image'] = 'color/base.png';
