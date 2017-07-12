@@ -18,14 +18,14 @@
 
       // Text preview.
       $('#preview #preview-main h2, #preview .preview-content', form).css('color', $('#palette input[name="palette[text]"]', form).val());
-      $('#preview #preview-content a', form).css('color', $('#palette input[name="palette[link]"]', form).val());
+      $('#preview #preview-content a', form).css('color', $('#palette input[name="palette[highlight]"]', form).val());
 
       // Sidebar block.
       $('#preview #preview-sidebar #preview-block', form).css('background-color', $('#palette input[name="palette[sidebar]"]', form).val());
       $('#preview #preview-sidebar #preview-block', form).css('border-color', $('#palette input[name="palette[sidebarborders]"]', form).val());
 
       // Footer wrapper background.
-      $('#preview #preview-footer-wrapper', form).css('background-color', $('#palette input[name="palette[footer]"]', form).val());
+      $('#preview #preview-footer-wrapper', form).css('background-color', $('#palette input[name="palette[second_color]"]', form).val());
 
       // CSS3 Gradients.
       var gradient_start = $('#palette input[name="palette[top]"]', form).val();
