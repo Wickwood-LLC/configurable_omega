@@ -20,7 +20,7 @@
       $('#preview #preview-header', form).css('background-color', $('#palette input[name="palette[header]"]', form).val());
 
       // Site name.
-      $('#preview #preview-site-name', form).css('color', $('#palette input[name="palette[siteTitle]"]', form).val());
+      $('#preview #preview-site-name', form).css('color', $('#palette input[name="palette[sitetitle]"]', form).val());
       // Slogan.
       $('#preview #preview-slogan', form).css('color', $('#palette input[name="palette[slogan]"]', form).val());
 
