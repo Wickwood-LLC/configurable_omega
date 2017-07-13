@@ -16,15 +16,25 @@
       // Solid background.
       $('#preview', form).css('backgroundColor', $('#palette input[name="palette[bg]"]', form).val());
 
-      // First color.
-      $('#preview #preview-header', form).css('background-color', $('#palette input[name="palette[firstColor]"]', form).val());
+      // Header.
+      $('#preview #preview-header', form).css('background-color', $('#palette input[name="palette[header]"]', form).val());
+
+      // Site name.
+      $('#preview #preview-site-name', form).css('color', $('#palette input[name="palette[siteTitle]"]', form).val());
+      // Slogan.
+      $('#preview #preview-slogan', form).css('color', $('#palette input[name="palette[slogan]"]', form).val());
+
+      // Content Background.
+      $('#preview #preview-main', form).css('background-color', $('#palette input[name="palette[content]"]', form).val());
 
       // Text preview.
+      $('#preview #preview-header a', form).css('color', $('#palette input[name="palette[accent]"]', form).val());
       $('#preview #preview-main h2, #preview .preview-content', form).css('color', $('#palette input[name="palette[text]"]', form).val());
       $('#preview #preview-content a', form).css('color', $('#palette input[name="palette[highlight]"]', form).val());
+      $('#preview #preview-content a', form).hover().css('color', $('#palette input[name="palette[linkHover]"]', form).val());
 
       // Second color.
-      $('#preview #preview-footer-wrapper', form).css('background-color', $('#palette input[name="palette[secondColor]"]', form).val());
+      $('#preview #preview-footer-wrapper', form).css('background-color', $('#palette input[name="palette[footer]"]', form).val());
     }
   };
 })(jQuery);

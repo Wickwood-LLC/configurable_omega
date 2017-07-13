@@ -7,33 +7,43 @@ $info = array(
   // Available colors and color labels used in theme.
   'fields' => array(
     'bg' => t('Main background'),
-    'firstColor' => t('First color'),
-    'secondColor' => t('Second color'),
+    'header' => t('Header background'),
+    'siteTitle' => t('Site title'),
+    'slogan' => t('Slogan'),
+    'content' => t('Content background'),
+    'footer' => t('Footer background'),
     'highlight' => t('Highlight'),
+    'accent' => t('Accent'),
+    'linkHover' => t('Link hover'),
     'text' => t('Text color'),
   ),
   // Pre-defined color schemes.
   'schemes' => array(
     'default' => array(
-      'title' => t('Blue Lagoon (default)'),
+      'title' => t('Default'),
       'colors' => array(
-        'bg' => '#ffffff',
-        'firstColor' => '#0779bf',
-        'secondColor' => '#292929',
-        'highlight' => '#0071b3',
-        'text' => '#3b3b3b',
+        'bg' => '#d8debc'
+        'header' => '#fffffe',
+        'siteTitle' => '#0f753c',
+        'slogan' => '#131313',
+        'content' => '#ffffff',
+        'footer' => '#0f753a',
+        'highlight' => '#0f753b',
+        'accent' => '#e03333',
+        'linkHover' => '#4285f4',
+        'text' => '#000000',
       ),
     ),
-    'firehouse' => array(
-      'title' => t('Firehouse'),
-      'colors' => array(
-        'bg' => '#ffffff',
-        'firstColor' => '#cd2d2d',
-        'secondColor' => '#1f1d1c',
-        'highlight' => '#d6121f',
-        'text' => '#3b3b3b',
-      ),
-    ),
+    // 'firehouse' => array(
+    //   'title' => t('Firehouse'),
+    //   'colors' => array(
+    //     'bg' => '#ffffff',
+    //     'firstColor' => '#cd2d2d',
+    //     'secondColor' => '#1f1d1c',
+    //     'highlight' => '#d6121f',
+    //     'text' => '#3b3b3b',
+    //   ),
+    // ),
   ),
 
   // CSS files (excluding @import) to rewrite with new color scheme.
