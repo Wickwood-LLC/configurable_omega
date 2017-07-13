@@ -17,14 +17,14 @@
       $('#preview', form).css('backgroundColor', $('#palette input[name="palette[bg]"]', form).val());
 
       // First color.
-      $('#preview #preview-header', form).css('background-color', $('#palette input[name="palette[firstcolor]"]', form).val());
+      $('#preview #preview-header', form).css('background-color', $('#palette input[name="palette[firstColor]"]', form).val());
 
       // Text preview.
       $('#preview #preview-main h2, #preview .preview-content', form).css('color', $('#palette input[name="palette[text]"]', form).val());
       $('#preview #preview-content a', form).css('color', $('#palette input[name="palette[highlight]"]', form).val());
 
       // Second color.
-      $('#preview #preview-footer-wrapper', form).css('background-color', $('#palette input[name="palette[secondcolor]"]', form).val());
+      $('#preview #preview-footer-wrapper', form).css('background-color', $('#palette input[name="palette[secondColor]"]', form).val());
     }
   };
 })(jQuery);

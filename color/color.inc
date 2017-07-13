@@ -7,8 +7,8 @@ $info = array(
   // Available colors and color labels used in theme.
   'fields' => array(
     'bg' => t('Main background'),
-    'firstcolor' => t('First color'),
-    'secondcolor' => t('Second color'),
+    'firstColor' => t('First color'),
+    'secondColor' => t('Second color'),
     'highlight' => t('Highlight'),
     'text' => t('Text color'),
   ),
@@ -18,8 +18,8 @@ $info = array(
       'title' => t('Blue Lagoon (default)'),
       'colors' => array(
         'bg' => '#ffffff',
-        'firstcolor' => '#0779bf',
-        'secondcolor' => '#292929',
+        'firstColor' => '#0779bf',
+        'secondColor' => '#292929',
         'highlight' => '#0071b3',
         'text' => '#3b3b3b',
       ),
@@ -28,8 +28,8 @@ $info = array(
       'title' => t('Firehouse'),
       'colors' => array(
         'bg' => '#ffffff',
-        'firstcolor' => '#cd2d2d',
-        'secondcolor' => '#1f1d1c',
+        'firstColor' => '#cd2d2d',
+        'secondColor' => '#1f1d1c',
         'highlight' => '#d6121f',
         'text' => '#3b3b3b',
       ),
