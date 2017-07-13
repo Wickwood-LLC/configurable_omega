@@ -14,7 +14,7 @@ $info = array(
     'footer' => t('Footer background'),
     'highlight' => t('Highlight'),
     'accent' => t('Accent'),
-    'linkHover' => t('Link hover'),
+    'linkhover' => t('Link hover'),
     'text' => t('Text color'),
   ),
   // Pre-defined color schemes.
@@ -30,7 +30,7 @@ $info = array(
         'footer' => '#0f753a',
         'highlight' => '#0f753b',
         'accent' => '#e03333',
-        'linkHover' => '#4285f4',
+        'linkhover' => '#4285f4',
         'text' => '#000000',
       ),
     ),
