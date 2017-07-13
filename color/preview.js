@@ -31,7 +31,9 @@
       $('#preview #preview-header a', form).css('color', $('#palette input[name="palette[accent]"]', form).val());
       $('#preview #preview-main h2, #preview .preview-content', form).css('color', $('#palette input[name="palette[text]"]', form).val());
       $('#preview #preview-content a', form).css('color', $('#palette input[name="palette[highlight]"]', form).val());
-      $('#preview #preview-content a:hover', form).css('color', $('#palette input[name="palette[linkhover]"]', form).val());
+      $('#preview #preview-content a', form).hover(function(){
+        this.css('color', $('#palette input[name="palette[linkhover]"]', form).val());
+      });
 
       // Second color.
       $('#preview #preview-footer-wrapper', form).css('background-color', $('#palette input[name="palette[footer]"]', form).val());
