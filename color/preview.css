@@ -26,6 +26,7 @@ html.js #preview {
 
 #preview-page {
   width: 90%;
+  margin: 0 auto;
 }
 
 #preview-header {
@@ -35,6 +36,7 @@ html.js #preview {
 #preview-logo {
   float: left;
   padding: 15px 15px 15px 10px;
+  width: 25%;
 }
 #preview-site-name {
   color: #686868;
@@ -97,11 +99,12 @@ html.js #preview {
 }
 #preview-sidebar {
   margin-left: 15px;
-  width: 210px;
+  width: 30%;
 }
 #preview-content {
   margin-left: 30px;
-  width: 26.5em;
+  margin-right: 15px;
+  width: calc(70% - 60px);
 }
 #preview-sidebar .preview-block {
   border: 1px solid;
@@ -125,8 +128,7 @@ html.js #preview {
   margin-top: 0;
 }
 #preview-main {
-  margin-bottom: 40px;
-  margin-top: 20px;
+  padding-bottom: 40px;
 }
 #preview-page-title {
   font-size: 2em;
