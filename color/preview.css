@@ -23,6 +23,11 @@ html.js #preview {
   word-wrap: break-word;
   margin-bottom: 10px;
 }
+
+#preview-page {
+  width: 90%;
+}
+
 #preview-header {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: relative;

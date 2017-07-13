@@ -1,9 +1,13 @@
 
 /* ---------- Color Module Styles ----------- */
 
+html {
+	background-color: #d8debc;
+}
+
 body,
 body.overlay {
-  color: #d8debc;
+  color: #000000;
 }
 .comment .comment-arrow {
   border-color: #ffffff;
@@ -28,7 +32,7 @@ body.overlay {
 	color: #e03333;
 }
 
-#pane-page-site-name a {
+#header .pane-page-site-name a {
 	color: #0f753c;
 }
 #pane-page-slogan {
