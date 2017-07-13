@@ -26,14 +26,14 @@ body.overlay {
   border-bottom: 1px solid #ffffff;
 }
 #header {
-  background-color: #fffffe;
+  background-color: #689a04;
 }
 #header a {
 	color: #e03333;
 }
 
 #header .pane-page-site-name a {
-	color: #0f753c;
+	color: #fffffe;
 }
 #pane-page-slogan {
 	color: #131313;
