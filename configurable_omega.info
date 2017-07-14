@@ -10,7 +10,7 @@ core = 7.x
 ; ========================================
 stylesheets[all][] = css/configurable-omega.reset.css
 stylesheets[all][] = css/configurable-omega.styles.css
-stylesheets[all][] = css/colors.php
+stylesheets[all][] = css/colors.css.php
 
 ; ========================================
 ; Scripts
