@@ -48,7 +48,7 @@ $info = array(
 
   // CSS files (excluding @import) to rewrite with new color scheme.
   'css' => array(
-    'css/colors.css',
+    'css/colors.php',
   ),
 
   // Files to copy.

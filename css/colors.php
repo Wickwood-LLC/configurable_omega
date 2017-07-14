@@ -1,3 +1,6 @@
+<?php
+  header("Content-type: text/css; charset: UTF-8");
+?>
 
 /* ---------- Color Module Styles ----------- */
 
@@ -63,8 +66,4 @@ a:active {
 #name-and-slogan a,
 #secondary-menu-links li a {
   color: #fffeff;
-}
-
-.boxed {
-	
 }

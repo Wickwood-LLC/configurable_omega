@@ -600,6 +600,12 @@
 		"oF": 1,
 		"oS": 3
 		},
+	"\/css\/colors.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/colors.php",
+		"oF": 0
+		},
 	"\/css\/configurable-omega.reset.css": {
 		"aP": 1,
 		"bl": 0,
