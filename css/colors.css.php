@@ -1,5 +1,12 @@
-<?php
-  header("Content-type: text/css; charset: UTF-8");
+<?php 
+header('Content-type: text/css');
+ob_start("compress");
+function compress($buffer) {
+  $buffer = preg_replace('!/\*[^*]*\*+([^/*][^*]*\*+)*/!', '', $buffer);
+  $buffer = str_replace(array("\r\n", "\r", "\n", "\t", '  '), '', $buffer);
+  $buffer = str_replace(array(', ', ' {'), array(',', '{'), $buffer);
+  return $buffer;
+}
 ?>
 
 /* ---------- Color Module Styles ----------- */
@@ -67,3 +74,5 @@ a:active {
 #secondary-menu-links li a {
   color: #fffeff;
 }
+
+<?php ob_end_flush(); ?>
