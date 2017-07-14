@@ -200,3 +200,5 @@ function configurable_omega_process_page(&$variables, $hook) {
     _color_page_alter($variables);
   }
 }
+
+theme_add_style(dirname(__FILE__).'css/colors.php');
