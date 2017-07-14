@@ -1,12 +1,16 @@
-<?php 
-header('Content-type: text/css');
-ob_start("compress");
-function compress($buffer) {
-  $buffer = preg_replace('!/\*[^*]*\*+([^/*][^*]*\*+)*/!', '', $buffer);
-  $buffer = str_replace(array("\r\n", "\r", "\n", "\t", '  '), '', $buffer);
-  $buffer = str_replace(array(', ', ' {'), array(',', '{'), $buffer);
-  return $buffer;
-}
+<?php
+$variables = array(
+  'font_size' => 20,
+);
+
+extract($variables, EXTR_SKIP);
+ob_start();
+include('colors.css.php');
+$css = ob_get_contents();
+ob_end_clean();
+
+// the resulting $css variable can be used to include or print the style in various ways:
+print '<style type="text/css">'.$css.'</style>';
 ?>
 
 /* ---------- Color Module Styles ----------- */
@@ -74,5 +78,3 @@ a:active {
 #secondary-menu-links li a {
   color: #fffeff;
 }
-
-<?php ob_end_flush(); ?>
