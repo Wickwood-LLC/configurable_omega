@@ -14,6 +14,7 @@ print '<style type="text/css">'.$css.'</style>';
 ?>
 
 /* ---------- Color Module Styles ----------- */
+@CHARSET "UTF-8";
 
 html {
 	background-color: #d8debc;
