@@ -14,8 +14,8 @@ core = 7.x
 ; ========================================
 ; Scripts
 ; ========================================
-scripts[] = js/min/mresize.min.js
-scripts[] = js/configurable-omega.behaviors.js
+;scripts[] = js/min/mresize.min.js
+;scripts[] = js/configurable-omega.behaviors.js
 
 ; ========================================
 ; Regions
