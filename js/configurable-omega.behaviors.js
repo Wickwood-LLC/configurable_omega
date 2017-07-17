@@ -74,18 +74,18 @@
     }
   };
 
-  Drupal.behaviors.accordionNavigation = {
-    attach: function (context, settings) {
-    $('.ui-accordion a.active').parents('.ui-accordion-content').addClass('ui-accordion-content-active').slideDown();
-    $('.ui-accordion a.active').parents('.ui-accordion-content').prev('h3.ui-accordion-header').addClass('ui-accordion-header-active ui-state-active ui-corner-top').removeClass('ui-corner-all');
-    }
-  };
+  // Drupal.behaviors.accordionNavigation = {
+  //   attach: function (context, settings) {
+  //   $('.ui-accordion a.active').parents('.ui-accordion-content').addClass('ui-accordion-content-active').slideDown();
+  //   $('.ui-accordion a.active').parents('.ui-accordion-content').prev('h3.ui-accordion-header').addClass('ui-accordion-header-active ui-state-active ui-corner-top').removeClass('ui-corner-all');
+  //   }
+  // };
 
-  Drupal.behaviors.jCarouselNav = {
-    attach: function (context, settings) {
-      $('.jcarousel-item a.active').parents('.jcarousel-item').addClass('active');
-    }
-  };
+  // Drupal.behaviors.jCarouselNav = {
+  //   attach: function (context, settings) {
+  //     $('.jcarousel-item a.active').parents('.jcarousel-item').addClass('active');
+  //   }
+  // };
 
   // Drupal.behaviors.stickyMenu = {
   //   attach: function (context, settings) {
