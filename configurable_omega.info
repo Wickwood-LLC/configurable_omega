@@ -8,8 +8,8 @@ core = 7.x
 ; ========================================
 ; Stylesheets
 ; ========================================
-stylesheets[all][] = css/configurable-omega.reset.css
-stylesheets[all][] = css/configurable-omega.styles.css
+;stylesheets[all][] = css/configurable-omega.reset.css
+;stylesheets[all][] = css/configurable-omega.styles.css
 
 ; ========================================
 ; Scripts

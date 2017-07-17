@@ -55,22 +55,22 @@
         $anchor.appendTo(this);
       });
 
-      $("h1.page-title").each(function(){
-        if (!$(this).text().trim().length) {
-            $(this).addClass("empty");
+      // $("h1.page-title").each(function(){
+      //   if (!$(this).text().trim().length) {
+      //       $(this).addClass("empty");
 
-            $(".secondary-menu").addClass("no-border");
-        }
-      });
+      //       $(".secondary-menu").addClass("no-border");
+      //   }
+      // });
 
-      $(window).on('resize', function(){
-        var $homeScroll = $(".front .wwm-sanderson .jspPane").height();
-        var $landingScroll = $(".panopoly-landing-page .jspPane").height();
-        if ($(window).width() < 1280) {
-          $(".front .wwm-sanderson .scroll-pane").height($homeScroll);
-          $(".panopoly-landing-page .scroll-pane").height($landingScroll);
-        }
-      });
+      // $(window).on('resize', function(){
+      //   var $homeScroll = $(".front .wwm-sanderson .jspPane").height();
+      //   var $landingScroll = $(".panopoly-landing-page .jspPane").height();
+      //   if ($(window).width() < 1280) {
+      //     $(".front .wwm-sanderson .scroll-pane").height($homeScroll);
+      //     $(".panopoly-landing-page .scroll-pane").height($landingScroll);
+      //   }
+      // });
     }
   };
 
