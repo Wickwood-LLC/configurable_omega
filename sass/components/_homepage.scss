@@ -1,0 +1,33 @@
+.front #content {
+	padding: 1em;
+
+	.myriad-row {
+		display: flex;
+
+		> div {
+			margin-left: 0.5em;
+			margin-right: 0.5em;
+			align-self: flex-start;
+
+			&:first-child {
+				margin-left: 0;
+			}
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+
+	.pane-articles-test-panel-pane-8,
+	.pane-panopoly-faq-panel-pane-6,
+	.pane-nodequeue-2-panel-pane-3,
+	.pane-news-test-panel-pane-7 {
+		width: calc((100%/3)*2);	
+	}
+
+	.pane-panopoly-widgets-general-content-piece-of-content,
+	.pane-full-calendar-panel-pane-2,
+	.pane-press-releases-test-panel-pane-7 {
+		width: calc(100%/3);
+	}	
+}

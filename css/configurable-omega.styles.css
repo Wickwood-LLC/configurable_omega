@@ -1512,6 +1512,31 @@ html.js fieldset.collapsed {
 .not-logged-in #header {
   margin-bottom: 1em; }
 
+.front #content {
+  padding: 1em; }
+  .front #content .myriad-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .front #content .myriad-row > div {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      -ms-flex-item-align: start;
+          align-self: flex-start; }
+      .front #content .myriad-row > div:first-child {
+        margin-left: 0; }
+      .front #content .myriad-row > div:last-child {
+        margin-right: 0; }
+  .front #content .pane-articles-test-panel-pane-8,
+  .front #content .pane-panopoly-faq-panel-pane-6,
+  .front #content .pane-nodequeue-2-panel-pane-3,
+  .front #content .pane-news-test-panel-pane-7 {
+    width: calc((100%/3)*2); }
+  .front #content .pane-panopoly-widgets-general-content-piece-of-content,
+  .front #content .pane-full-calendar-panel-pane-2,
+  .front #content .pane-press-releases-test-panel-pane-7 {
+    width: calc(100%/3); }
+
 /* These are styles for the login and registration pages. */
 .page-user-login #content .row,
 .not-logged-in.page-user #content .row,
