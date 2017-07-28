@@ -767,7 +767,7 @@ article.main-content p {
   margin: 1em 0;
   position: relative;
   box-sizing: border-box; }
-  .boxed .pane-title {
+  .boxed > .pane-title {
     background-color: white;
     position: absolute;
     margin: 0;
@@ -775,7 +775,7 @@ article.main-content p {
     padding: 0 0.5em;
     display: inline-block !important;
     font-size: 1.15em; }
-    .boxed .pane-title.ctools-collapsible-handle {
+    .boxed > .pane-title.ctools-collapsible-handle {
       padding-left: 1em; }
   .boxed .ctools-toggle {
     position: absolute;

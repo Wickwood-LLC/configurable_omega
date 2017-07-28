@@ -11,7 +11,7 @@ article.main-content p {
 	position: relative;
   box-sizing: border-box;
 
-	.pane-title {
+	> .pane-title {
     background-color: white;
 		position: absolute;
 		margin: 0;
