@@ -120,64 +120,6 @@
 			height: auto;
 		}
 
-		.featured-display {
-			height: 100%;
-
-			.view-content {
-				display: flex;
-				flex-flow: row wrap;
-				height: 100%;
-	
-			    .views-row {
-			    	width: 50%;
-				    flex: 1 100%;
-				    padding: 0.5em;
-				    margin: 0.5em;
-				    border: 2px solid #689a04;
-				    border-radius: 5px;
-				    background-color: #f5f5f5;
-				    font-size: 14px;
-				    display: flex;
-				    flex-flow: column nowrap;
-	
-				    @include breakpoint(420px) {
-				    	flex: 1 1 300px;
-				    	font-size: 18px;
-				    	min-width: 300px;
-				    }
-	
-				    .featured-image img {
-				    	width: 100%;
-				    	height: auto;
-				    }
-	
-				    .views-field-body {
-				    	flex: 1;
-				    	display: flex;
-				    }
-			    }
-	
-			    .scroll-pane {
-			    	max-height: 600px;
-	    			overflow: auto;
-			    }
-	
-			    .views-field-published-at {
-			    	text-align: center;
-			    	margin-bottom: 1em;
-			    }
-			    .views-field-name {
-			    	display: block;
-				    text-align: center;
-				    margin-bottom: 1em;
-			    }
-			    .views-field-body img {
-			    	width: 100%;
-			    	height: auto;
-			    }
-			}
-		}
-
 		.pane-ad-cycles-ad-blog .view-content {
 			display: flex;
 			flex-flow: row wrap;
@@ -371,6 +313,64 @@
 				}
 			}
 		}
+	}
+}
+
+.featured-display {
+	height: 100%;
+
+	.view-content {
+		display: flex;
+		flex-flow: row wrap;
+		height: 100%;
+
+	    .views-row {
+	    	width: 50%;
+		    flex: 1 100%;
+		    padding: 0.5em;
+		    margin: 0.5em;
+		    border: 2px solid #689a04;
+		    border-radius: 5px;
+		    background-color: #f5f5f5;
+		    font-size: 14px;
+		    display: flex;
+		    flex-flow: column nowrap;
+
+		    @include breakpoint(420px) {
+		    	flex: 1 1 300px;
+		    	font-size: 18px;
+		    	min-width: 300px;
+		    }
+
+		    .featured-image img {
+		    	width: 100%;
+		    	height: auto;
+		    }
+
+		    .views-field-body {
+		    	flex: 1;
+		    	display: flex;
+		    }
+	    }
+
+	    .scroll-pane {
+	    	max-height: 600px;
+			overflow: auto;
+	    }
+
+	    .views-field-published-at {
+	    	text-align: center;
+	    	margin-bottom: 1em;
+	    }
+	    .views-field-name {
+	    	display: block;
+		    text-align: center;
+		    margin-bottom: 1em;
+	    }
+	    .views-field-body img {
+	    	width: 100%;
+	    	height: auto;
+	    }
 	}
 }
 
