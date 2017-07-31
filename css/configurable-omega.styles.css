@@ -384,15 +384,6 @@ label {
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-type {
         font-weight: bold;
         font-size: 0.8em; }
-  .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a {
-    float: right;
-    text-transform: capitalize;
-    color: #EA4335;
-    font-weight: bold; }
-    .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a:hover {
-      text-decoration: underline; }
-    .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a:focus {
-      color: #0f753b; }
 .blog-type-page .views-field-title h2 {
   text-align: center;
   margin: 0; }
@@ -499,6 +490,16 @@ label {
     .featured-display .view-content .views-field-body img {
       width: 100%;
       height: auto; }
+
+.views-field-view-node a {
+  float: right;
+  text-transform: capitalize;
+  color: #EA4335;
+  font-weight: bold; }
+  .views-field-view-node a:hover {
+    text-decoration: underline; }
+  .views-field-view-node a:focus {
+    color: #0f753b; }
 
 .page-taxonomy-term.blog-type-page .pane-term-description h2 {
   margin: 0; }

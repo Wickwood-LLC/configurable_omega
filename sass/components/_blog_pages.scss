@@ -231,20 +231,6 @@
 				}
 			}
 		}
-
-		.views-field-view-node a {
-		    float: right;
-		    text-transform: capitalize;
-		    color: #EA4335;
-			font-weight: bold;
-
-			&:hover {
-				text-decoration: underline;
-			}
-			&:focus {
-				color: #0f753b;
-			}
-		}
 	}
 
 	.views-field-title h2 {
@@ -371,6 +357,20 @@
 	    	width: 100%;
 	    	height: auto;
 	    }
+	}
+}
+
+.views-field-view-node a {
+    float: right;
+    text-transform: capitalize;
+    color: #EA4335;
+	font-weight: bold;
+
+	&:hover {
+		text-decoration: underline;
+	}
+	&:focus {
+		color: #0f753b;
 	}
 }
 
