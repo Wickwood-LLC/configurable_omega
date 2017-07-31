@@ -433,6 +433,9 @@ label {
 
 .featured-display {
   height: 100%; }
+  .featured-display .views-field-title h2 {
+    text-align: center;
+    margin: 0; }
   .featured-display .view-content {
     display: -webkit-box;
     display: -ms-flexbox;

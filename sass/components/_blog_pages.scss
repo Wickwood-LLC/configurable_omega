@@ -305,6 +305,11 @@
 .featured-display {
 	height: 100%;
 
+	.views-field-title h2 {
+	    text-align: center;
+	    margin: 0;
+	}
+
 	.view-content {
 		display: flex;
 		flex-flow: row wrap;
