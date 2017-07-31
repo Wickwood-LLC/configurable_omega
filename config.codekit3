@@ -1236,6 +1236,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/components\/_scrollbars.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/components\/_scrollbars.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/components\/_user_pages.scss": {
 		"aP": 0,
 		"bl": 0,
