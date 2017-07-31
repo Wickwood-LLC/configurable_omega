@@ -1547,6 +1547,10 @@ html.js fieldset.collapsed {
   .front #content .pane-news-test-panel-pane-7,
   .front #content .pane-press-releases-test-panel-pane-7 {
     background: url(../images/banner.jpg) center center; }
+  .front #content .view-footer {
+    text-align: center; }
+    .front #content .view-footer p {
+      margin: 0; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login #content .row,
