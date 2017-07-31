@@ -1541,6 +1541,11 @@ html.js fieldset.collapsed {
   .front #content .pane-full-calendar-panel-pane-2,
   .front #content .pane-press-releases-test-panel-pane-7 {
     width: calc(100%/3); }
+  .front #content .pane-articles-test-panel-pane-8,
+  .front #content .pane-panopoly-faq-panel-pane-6,
+  .front #content .pane-news-test-panel-pane-7,
+  .front #content .pane-press-releases-test-panel-pane-7 {
+    background: url(../images/banner.jpg) center center; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login #content .row,

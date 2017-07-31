@@ -29,5 +29,12 @@
 	.pane-full-calendar-panel-pane-2,
 	.pane-press-releases-test-panel-pane-7 {
 		width: calc(100%/3);
-	}	
+	}
+
+	.pane-articles-test-panel-pane-8,
+	.pane-panopoly-faq-panel-pane-6,
+	.pane-news-test-panel-pane-7,
+	.pane-press-releases-test-panel-pane-7 {
+		background: url(../images/banner.jpg) center center;
+	}
 }
