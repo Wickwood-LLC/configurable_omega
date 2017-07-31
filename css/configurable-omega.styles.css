@@ -1526,8 +1526,9 @@ html.js fieldset.collapsed {
     .front #content .myriad-row > div {
       margin-left: 0.5em;
       margin-right: 0.5em;
-      -ms-flex-item-align: start;
-          align-self: flex-start; }
+      -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
+          align-self: center; }
       .front #content .myriad-row > div:first-child {
         margin-left: 0; }
       .front #content .myriad-row > div:last-child {
