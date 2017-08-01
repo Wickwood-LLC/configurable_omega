@@ -7,7 +7,8 @@
 		> div {
 			margin-left: 0.5em;
 			margin-right: 0.5em;
-			align-self: center;
+			margin-top: 1em;
+			margin-bottom: 1em;
 
 			&:first-child {
 				margin-left: 0;
@@ -33,8 +34,7 @@
 
 	.pane-articles-test-panel-pane-8,
 	.pane-panopoly-faq-panel-pane-6,
-	.pane-news-test-panel-pane-7,
-	.pane-press-releases-test-panel-pane-7 {
+	.pane-news-test-panel-pane-7 {
 		background: url(../images/banner.jpg) center center;
 	}
 
@@ -43,6 +43,26 @@
 
 		p {
 			margin: 0;
+			font-weight: bold;
 		}
+
+		a {
+			color: #EA4335;
+		}
+	}
+
+	.boxed > .pane-title {
+		top: -30px;
+	}
+
+	.pane-panopoly-widgets-general-content-piece-of-content,
+	.pane-panopoly-widgets-general-content-piece-of-content .view,
+	.pane-panopoly-widgets-general-content-piece-of-content .view .view-content,
+	.pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row,
+	.pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row .node {
+		display: inherit;
+	}
+	.pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row .node {
+		margin-bottom: 0;
 	}
 }

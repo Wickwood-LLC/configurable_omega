@@ -1526,9 +1526,8 @@ html.js fieldset.collapsed {
     .front #content .myriad-row > div {
       margin-left: 0.5em;
       margin-right: 0.5em;
-      -ms-flex-item-align: center;
-          -ms-grid-row-align: center;
-          align-self: center; }
+      margin-top: 1em;
+      margin-bottom: 1em; }
       .front #content .myriad-row > div:first-child {
         margin-left: 0; }
       .front #content .myriad-row > div:last-child {
@@ -1544,13 +1543,25 @@ html.js fieldset.collapsed {
     width: calc(100%/3); }
   .front #content .pane-articles-test-panel-pane-8,
   .front #content .pane-panopoly-faq-panel-pane-6,
-  .front #content .pane-news-test-panel-pane-7,
-  .front #content .pane-press-releases-test-panel-pane-7 {
+  .front #content .pane-news-test-panel-pane-7 {
     background: url(../images/banner.jpg) center center; }
   .front #content .view-footer {
     text-align: center; }
     .front #content .view-footer p {
-      margin: 0; }
+      margin: 0;
+      font-weight: bold; }
+    .front #content .view-footer a {
+      color: #EA4335; }
+  .front #content .boxed > .pane-title {
+    top: -30px; }
+  .front #content .pane-panopoly-widgets-general-content-piece-of-content,
+  .front #content .pane-panopoly-widgets-general-content-piece-of-content .view,
+  .front #content .pane-panopoly-widgets-general-content-piece-of-content .view .view-content,
+  .front #content .pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row,
+  .front #content .pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row .node {
+    display: inherit; }
+  .front #content .pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row .node {
+    margin-bottom: 0; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login #content .row,
