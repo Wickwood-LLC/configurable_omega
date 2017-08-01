@@ -1554,6 +1554,8 @@ html.js fieldset.collapsed {
       color: #EA4335; }
   .front #content .boxed > .pane-title {
     top: -30px; }
+  .front #content .featured-display {
+    height: auto; }
   .front #content .pane-panopoly-widgets-general-content-piece-of-content,
   .front #content .pane-panopoly-widgets-general-content-piece-of-content .view,
   .front #content .pane-panopoly-widgets-general-content-piece-of-content .view .view-content,
