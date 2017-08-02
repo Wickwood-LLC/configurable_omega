@@ -3,6 +3,53 @@
 
 	.panel-myriad-layout {
 		display: flex;
+		flex-flow: row wrap;
+
+		>div {
+			flex: 1;
+		}
+
+		@include breakpoint(667px 943px) {
+			.latest-book,
+			.pane-full-calendar-panel-pane-2 {
+				flex: 1 1 0;
+				margin-right: 0.5em;
+			}
+
+			.free-book-video,
+			.pane-press-releases-test-panel-pane-7 {
+				flex: 1 1 0;
+				margin-left: 0.5em;
+			}
+		}
+
+		@include breakpoint(944px) {
+			.pane-articles-test-panel-pane-8,
+			.pane-panopoly-faq-panel-pane-6,
+			.pane-nodequeue-2-panel-pane-3,
+			.pane-news-test-panel-pane-7 {
+				flex: 2 1 0;
+			}
+			.pane-articles-test-panel-pane-8,
+			.pane-nodequeue-2-panel-pane-3 {
+				margin-right: 0.5em;
+			}
+			.pane-panopoly-faq-panel-pane-6,
+			.pane-news-test-panel-pane-7 {
+				margin-left: 0.5em;
+			}
+
+			.latest-book,
+			.pane-full-calendar-panel-pane-2 {
+				margin-left: 0.5em;
+			}
+
+			.free-book-video,
+			.pane-press-releases-test-panel-pane-7 {
+				margin-right: 0.5em;
+			}
+		}
+
 	}
 
 	.pane-articles-test-panel-pane-8,
@@ -45,8 +92,9 @@
 	    height: auto;
 	}
 
+	.boxed,
 	.pane-panopoly-widgets-general-content-piece-of-content {
-		margin: 1em 0;
+		margin: 0.5em 0;
 	}
 
 	.pane-panopoly-widgets-general-content-piece-of-content,
@@ -55,13 +103,8 @@
 	.pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row,
 	.pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row .node {
 		display: inherit;
-
 	}
 	.pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row .node {
 		margin-bottom: 0;
-	}
-
-	@include breakpoint(667px  943px) {
-
 	}
 }
