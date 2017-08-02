@@ -72,6 +72,14 @@
 	    height: auto;
 	}
 
+	[data-pane="3142"]
+	[data-pane="3144"] {
+		display: inherit;
+		>div {
+			display: inherit;
+		}
+	}
+
 	[data-pane="3142"]>div,
 	[data-pane="3144"]>div {
 		.pane-panopoly-widgets-general-content-piece-of-content,
