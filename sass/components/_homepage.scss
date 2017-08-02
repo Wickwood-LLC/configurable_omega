@@ -75,13 +75,13 @@
 	[data-pane="3142"]
 	[data-pane="3144"] {
 		display: inherit;
-		>div {
+		>div[class=""] {
 			display: inherit;
 		}
 	}
 
-	[data-pane="3142"]>div,
-	[data-pane="3144"]>div {
+	[data-pane="3142"]>div[class=""],
+	[data-pane="3144"]>div[class=""] {
 		.pane-panopoly-widgets-general-content-piece-of-content,
 		.pane-panopoly-widgets-general-content-piece-of-content .view,
 		.pane-panopoly-widgets-general-content-piece-of-content .view .view-content,
