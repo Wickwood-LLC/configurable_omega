@@ -1532,15 +1532,20 @@ html.js fieldset.collapsed {
         margin-left: 0; }
       .front #content .myriad-row > div:last-child {
         margin-right: 0; }
-  .front #content .pane-articles-test-panel-pane-8,
-  .front #content .pane-panopoly-faq-panel-pane-6,
-  .front #content .pane-nodequeue-2-panel-pane-3,
-  .front #content .pane-news-test-panel-pane-7 {
-    width: calc((100%/3)*2); }
-  .front #content .pane-panopoly-widgets-general-content-piece-of-content,
-  .front #content .pane-full-calendar-panel-pane-2,
-  .front #content .pane-press-releases-test-panel-pane-7 {
-    width: calc(100%/3); }
+  .front #content .row-one div:first-child,
+  .front #content .row-two div:last-child,
+  .front #content .row-three div:first-child,
+  .front #content .row-four div:last-child {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2; }
+  .front #content .row-one div:last-child,
+  .front #content .row-two div:first-child,
+  .front #content .row-three div:last-child,
+  .front #content .row-four div:first-child {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
   .front #content .pane-articles-test-panel-pane-8,
   .front #content .pane-panopoly-faq-panel-pane-6,
   .front #content .pane-news-test-panel-pane-7 {

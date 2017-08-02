@@ -19,17 +19,17 @@
 		}
 	}
 
-	.pane-articles-test-panel-pane-8,
-	.pane-panopoly-faq-panel-pane-6,
-	.pane-nodequeue-2-panel-pane-3,
-	.pane-news-test-panel-pane-7 {
-		width: calc((100%/3)*2);	
+	.row-one div:first-child,
+	.row-two div:last-child,
+	.row-three div:first-child,
+	.row-four div:last-child {
+		flex: 2;
 	}
-
-	.pane-panopoly-widgets-general-content-piece-of-content,
-	.pane-full-calendar-panel-pane-2,
-	.pane-press-releases-test-panel-pane-7 {
-		width: calc(100%/3);
+	.row-one div:last-child,
+	.row-two div:first-child,
+	.row-three div:last-child,
+	.row-four div:first-child {
+		flex: 1;
 	}
 
 	.pane-articles-test-panel-pane-8,
