@@ -6,7 +6,7 @@
 		flex-flow: row wrap;
 
 		>div {
-			flex: 1;
+			flex: 1 1 100%;
 		}
 
 		@include breakpoint(667px 943px) {
@@ -37,6 +37,13 @@
 			.pane-panopoly-faq-panel-pane-6,
 			.pane-news-test-panel-pane-7 {
 				margin-left: 0.5em;
+			}
+
+			.latest-book,
+			.pane-full-calendar-panel-pane-2,
+			.free-book-video,
+			.pane-press-releases-test-panel-pane-7 {
+				flex: 1 1 0;
 			}
 
 			.latest-book,
@@ -90,6 +97,10 @@
 
 	.featured-display {
 	    height: auto;
+
+	    .view-content .views-row {
+	    	min-width: 0;
+	    }
 	}
 
 	.boxed,
