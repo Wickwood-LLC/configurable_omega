@@ -101,6 +101,13 @@
 	    .view-content .views-row {
 	    	min-width: 0;
 	    }
+	    .views-row-2 {
+	    	display: none;
+
+	    	@include breakpoint(667px) {
+	    		display: flex;
+	    	}
+	    }
 	}
 
 	.boxed,
