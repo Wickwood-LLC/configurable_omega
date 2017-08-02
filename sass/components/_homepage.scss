@@ -72,8 +72,8 @@
 	    height: auto;
 	}
 
-	div[data-pane="3142"]>div,
-	div[data-pane="3144"]>div {
+	[data-pane="3142"]>div,
+	[data-pane="3144"]>div {
 		.pane-panopoly-widgets-general-content-piece-of-content,
 		.pane-panopoly-widgets-general-content-piece-of-content .view,
 		.pane-panopoly-widgets-general-content-piece-of-content .view .view-content,
