@@ -1570,11 +1570,11 @@ html.js fieldset.collapsed {
     font-size: 1.5em; }
   .front #content .featured-display {
     height: auto; }
-  .front #content [data-pane="3142"]
-  [data-pane="3144"] {
+  .front #content [data-pane="3142"],
+  .front #content [data-pane="3144"] {
     display: inherit; }
-    .front #content [data-pane="3142"]
-    [data-pane="3144"] div:not([class]) {
+    .front #content [data-pane="3142"] div:not([class]),
+    .front #content [data-pane="3144"] div:not([class]) {
       display: inherit; }
   .front #content [data-pane="3142"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content,
   .front #content [data-pane="3142"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view,

@@ -72,9 +72,10 @@
 	    height: auto;
 	}
 
-	[data-pane="3142"]
+	[data-pane="3142"],
 	[data-pane="3144"] {
 		display: inherit;
+
 		div:not([class]) {
 			display: inherit;
 		}
