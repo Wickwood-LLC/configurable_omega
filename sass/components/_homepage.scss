@@ -1,35 +1,8 @@
 .front #content {
 	padding: 1em;
 
-	.myriad-row {
+	.panel-myriad-layout {
 		display: flex;
-
-		> div {
-			margin-left: 0.5em;
-			margin-right: 0.5em;
-			margin-top: 1em;
-			margin-bottom: 1em;
-
-			&:first-child {
-				margin-left: 0;
-			}
-			&:last-child {
-				margin-right: 0;
-			}
-		}
-	}
-
-	.row-one>div:first-child,
-	.row-two>div:last-child,
-	.row-three>div:first-child,
-	.row-four>div:last-child {
-		flex: 2;
-	}
-	.row-one>div:last-child,
-	.row-two>div:first-child,
-	.row-three>div:last-child,
-	.row-four>div:first-child {
-		flex: 1;
 	}
 
 	.pane-articles-test-panel-pane-8,
@@ -72,21 +45,8 @@
 	    height: auto;
 	}
 
-	[data-pane="3142"],
-	[data-pane="3144"] {
-		align-self: stretch;
-
-		div:not([class]) {
-			height: 100%;
-			
-			.pane-panopoly-widgets-general-content-piece-of-content,
-			.pane-panopoly-widgets-general-content-piece-of-content .view,
-			.pane-panopoly-widgets-general-content-piece-of-content .view .view-content,
-			.pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row,
-			.pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row .node {
-				height: 100%;
-			}
-		}
+	.pane-panopoly-widgets-general-content-piece-of-content {
+		margin: 1em 0;
 	}
 
 	.pane-panopoly-widgets-general-content-piece-of-content,
@@ -95,8 +55,13 @@
 	.pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row,
 	.pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row .node {
 		display: inherit;
+
 	}
 	.pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row .node {
 		margin-bottom: 0;
+	}
+
+	@include breakpoint(667px  943px) {
+
 	}
 }
