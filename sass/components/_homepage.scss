@@ -19,16 +19,16 @@
 		}
 	}
 
-	.row-one div:first-child,
-	.row-two div:last-child,
-	.row-three div:first-child,
-	.row-four div:last-child {
+	.row-one>div:first-child,
+	.row-two>div:last-child,
+	.row-three>div:first-child,
+	.row-four>div:last-child {
 		flex: 2;
 	}
-	.row-one div:last-child,
-	.row-two div:first-child,
-	.row-three div:last-child,
-	.row-four div:first-child {
+	.row-one>div:last-child,
+	.row-two>div:first-child,
+	.row-three>div:last-child,
+	.row-four>div:first-child {
 		flex: 1;
 	}
 
