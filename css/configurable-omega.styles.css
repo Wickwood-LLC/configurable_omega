@@ -1572,20 +1572,28 @@ html.js fieldset.collapsed {
     height: auto; }
   .front #content [data-pane="3142"],
   .front #content [data-pane="3144"] {
-    display: inherit; }
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch; }
     .front #content [data-pane="3142"] div:not([class]),
     .front #content [data-pane="3144"] div:not([class]) {
-      display: inherit; }
-  .front #content [data-pane="3142"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content,
-  .front #content [data-pane="3142"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view,
-  .front #content [data-pane="3142"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view .view-content,
-  .front #content [data-pane="3142"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row,
-  .front #content [data-pane="3142"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row .node,
-  .front #content [data-pane="3144"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content,
-  .front #content [data-pane="3144"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view,
-  .front #content [data-pane="3144"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view .view-content,
-  .front #content [data-pane="3144"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row,
-  .front #content [data-pane="3144"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row .node {
+      height: 100%; }
+      .front #content [data-pane="3142"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content,
+      .front #content [data-pane="3142"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view,
+      .front #content [data-pane="3142"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view .view-content,
+      .front #content [data-pane="3142"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row,
+      .front #content [data-pane="3142"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row .node,
+      .front #content [data-pane="3144"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content,
+      .front #content [data-pane="3144"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view,
+      .front #content [data-pane="3144"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view .view-content,
+      .front #content [data-pane="3144"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row,
+      .front #content [data-pane="3144"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row .node {
+        display: inherit; }
+  .front #content .pane-panopoly-widgets-general-content-piece-of-content,
+  .front #content .pane-panopoly-widgets-general-content-piece-of-content .view,
+  .front #content .pane-panopoly-widgets-general-content-piece-of-content .view .view-content,
+  .front #content .pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row,
+  .front #content .pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row .node {
     display: inherit; }
   .front #content .pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row .node {
     margin-bottom: 0; }
