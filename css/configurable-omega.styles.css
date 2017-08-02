@@ -1588,7 +1588,7 @@ html.js fieldset.collapsed {
       .front #content [data-pane="3144"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view .view-content,
       .front #content [data-pane="3144"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row,
       .front #content [data-pane="3144"] div:not([class]) .pane-panopoly-widgets-general-content-piece-of-content .view .view-content .views-row .node {
-        display: inherit; }
+        height: 100%; }
   .front #content .pane-panopoly-widgets-general-content-piece-of-content,
   .front #content .pane-panopoly-widgets-general-content-piece-of-content .view,
   .front #content .pane-panopoly-widgets-general-content-piece-of-content .view .view-content,
