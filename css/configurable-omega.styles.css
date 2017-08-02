@@ -1550,8 +1550,8 @@ html.js fieldset.collapsed {
       .front #content .panel-myriad-layout .pane-nodequeue-2-panel-pane-3,
       .front #content .panel-myriad-layout .pane-news-test-panel-pane-7 {
         -webkit-box-flex: 2;
-            -ms-flex: 2 1 0px;
-                flex: 2 1 0; }
+            -ms-flex: 2 1 60%;
+                flex: 2 1 60%; }
       .front #content .panel-myriad-layout .pane-articles-test-panel-pane-8,
       .front #content .panel-myriad-layout .pane-nodequeue-2-panel-pane-3 {
         margin-right: 0.5em; }
@@ -1563,8 +1563,8 @@ html.js fieldset.collapsed {
       .front #content .panel-myriad-layout .free-book-video,
       .front #content .panel-myriad-layout .pane-press-releases-test-panel-pane-7 {
         -webkit-box-flex: 1;
-            -ms-flex: 1 1 0px;
-                flex: 1 1 0; }
+            -ms-flex: 1 1 30%;
+                flex: 1 1 30%; }
       .front #content .panel-myriad-layout .latest-book,
       .front #content .panel-myriad-layout .pane-full-calendar-panel-pane-2 {
         margin-left: 0.5em; }
