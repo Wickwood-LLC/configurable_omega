@@ -1970,22 +1970,6 @@ body.maintenance-page {
 /*
 These style are to make video from a media field as responsive. The video fields are required to add 'wwm-video-responsive' in its field formatter settings.
 */
-::-webkit-scrollbar {
-  width: 12px; }
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #eee;
-  border: 1px solid #e6e6e6; }
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: #ababab; }
-
-::-webkit-scrollbar-thumb:window-inactive {
-  background: rgba(0, 255, 0, 0.4); }
-
 /* For IE */
 body {
   scrollbar-face-color: rgba(1, 148, 1, 0.8); }
