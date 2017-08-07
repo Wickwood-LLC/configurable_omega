@@ -1194,6 +1194,9 @@ td .description {
   .pane-ad-cycles-ad-slideshow .vscc-controls .vscc_controls_pause a {
     line-height: 2em; }
 
+.field--name-field-teaser-title h1 {
+  text-align: center; }
+
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;
   display: -ms-flexbox;
