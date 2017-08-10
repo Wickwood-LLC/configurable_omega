@@ -601,3 +601,21 @@ td {
 .field--name-field-book-cover {
   text-align: center;
 }
+
+.field--name-field-available-in {
+  overflow-x: scroll;
+  margin-bottom: 1em;
+}
+
+th.field_publish_location {
+  width: 150px;
+}
+th.field_standardized_book_number_s {
+  width: 200px;
+}
+th.field_number_of_pages {
+  width: 100px;
+}
+th.field_purchase_links {
+  width: 100px;
+}
