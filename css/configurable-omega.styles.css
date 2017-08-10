@@ -1197,6 +1197,9 @@ td .description {
 .field--name-field-teaser-title {
   text-align: center; }
 
+.field--name-field-book-cover {
+  text-align: center; }
+
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;
   display: -ms-flexbox;
