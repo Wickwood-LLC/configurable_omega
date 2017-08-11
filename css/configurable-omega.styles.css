@@ -1210,6 +1210,11 @@ td .description {
 .field--name-field-book-cover {
   text-align: center; }
 
+.field--name-field-authors .field-items {
+  display: inline; }
+.field--name-field-authors .field__item:not(:last-child):after {
+  content: ",\00a0"; }
+
 .field--name-field-contributor-type {
   font-weight: bold;
   display: -webkit-inline-box;

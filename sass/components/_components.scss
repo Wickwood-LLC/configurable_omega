@@ -612,6 +612,14 @@ td {
   text-align: center;
 }
 
+.field--name-field-authors {
+  .field-items {
+    display: inline;
+  }
+  .field__item:not(:last-child):after {
+      content: ",\00a0";
+  }
+}
 .field--name-field-contributor-type {
   font-weight: bold;
   display: inline-flex;
