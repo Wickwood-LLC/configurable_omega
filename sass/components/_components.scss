@@ -616,7 +616,7 @@ td {
   .field-items {
     display: inline;
   }
-  .field-item {
+  .field__item {
     display: inline;
   }
   .field__item:not(:last-child):after {
@@ -635,7 +635,7 @@ td {
 .field--name-field-contributor-name {
   display: inline-block;
 
-  .field-item {
+  .field__item {
     display: inline;
   }
   .field__item:not(:last-child):after {

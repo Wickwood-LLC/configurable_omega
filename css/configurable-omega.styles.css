@@ -1212,7 +1212,7 @@ td .description {
 
 .field--name-field-authors .field-items {
   display: inline; }
-.field--name-field-authors .field-item {
+.field--name-field-authors .field__item {
   display: inline; }
 .field--name-field-authors .field__item:not(:last-child):after {
   content: ",\00a0"; }
@@ -1228,7 +1228,7 @@ td .description {
 
 .field--name-field-contributor-name {
   display: inline-block; }
-  .field--name-field-contributor-name .field-item {
+  .field--name-field-contributor-name .field__item {
     display: inline; }
   .field--name-field-contributor-name .field__item:not(:last-child):after {
     content: ",\00a0"; }
