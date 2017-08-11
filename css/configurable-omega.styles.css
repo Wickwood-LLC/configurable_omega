@@ -1194,15 +1194,18 @@ td .description {
   .pane-ad-cycles-ad-slideshow .vscc-controls .vscc_controls_pause a {
     line-height: 2em; }
 
-.field--name-field-teaser-title {
-  text-align: center; }
+.pane-node-field-teaser-title {
+  text-align: center;
+  margin: 0; }
 
-.field--name-field-book-title {
+.pane-node-field-book-title {
   font-size: 32.4px;
-  text-align: center; }
+  text-align: center;
+  margin: 0; }
 
-.field--name-field-book-sub-title {
-  text-align: center; }
+.pane-node-field-book-sub-title {
+  text-align: center;
+  margin: 0; }
 
 .field--name-field-book-cover {
   text-align: center; }
