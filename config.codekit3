@@ -1372,6 +1372,12 @@
 		"oAP": "\/template.php",
 		"oF": 0
 		},
+	"\/templates\/location.tpl.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/location.tpl.php",
+		"oF": 0
+		},
 	"\/templates\/maintenance-page.tpl.php": {
 		"ft": 8192,
 		"oA": 2,
