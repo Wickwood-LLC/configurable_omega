@@ -645,7 +645,15 @@ td {
 
 .field--name-field-available-in {
   overflow-x: scroll;
+  margin-top: 1em;
   margin-bottom: 1em;
+
+  .field-collection-table-view {
+    border: 1px solid #aaa;
+  }
+  th:not(:last-child) {
+    padding-right: 1em;
+  }
 }
 
 th.field_publish_location {
@@ -659,4 +667,7 @@ th.field_number_of_pages {
 }
 th.field_purchase_links {
   width: 100px;
+}
+th.field_order_by_phone {
+  min-width: 140px;
 }
