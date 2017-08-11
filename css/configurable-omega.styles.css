@@ -1197,6 +1197,13 @@ td .description {
 .field--name-field-teaser-title {
   text-align: center; }
 
+.field--name-field-book-title {
+  font-size: 1.8em;
+  text-align: center; }
+
+.field--name-field-book-sub-title {
+  text-align: center; }
+
 .field--name-field-book-cover {
   text-align: center; }
 
