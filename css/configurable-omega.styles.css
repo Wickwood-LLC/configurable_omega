@@ -281,7 +281,7 @@ label {
     height: 100%; }
   .blog-type-page #main-content .panel-myriad-layout .pane-panopoly-faq-panel-pane-4 {
     height: auto; }
-  .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content {
+  .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -289,39 +289,39 @@ label {
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
-    .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row {
+    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row {
       -webkit-box-flex: 1;
           -ms-flex: 1 30%;
               flex: 1 30%;
       margin: 0.5em;
       padding: 0; }
       @media (min-width: 375px) {
-        .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row {
+        .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row {
           min-width: 300px;
           -webkit-box-flex: 1;
               -ms-flex: 1 1 300px;
                   flex: 1 1 300px; } }
-      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .panel-display {
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .panel-display {
         padding: 0; }
-      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .panel-flexible {
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .panel-flexible {
         padding: 1em; }
-      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row h2 {
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row h2 {
         margin: 0.5em 0 0 0;
         text-align: center; }
-      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row h3 {
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row h3 {
         margin: 0 0 0.5em 0;
         text-align: center; }
-      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .col-1, .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .col-2 {
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-1, .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-2 {
         width: 100%; }
-      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .col-1 {
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-1 {
         background-color: #9bcb3b;
         padding: 1em;
         border-radius: 8px 8px 0 0; }
-      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .col-2 {
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-2 {
         padding: 0 1em 1em 1em; }
-      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .pane-node-field-ad-image {
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .pane-node-field-card-image {
         text-align: center; }
-      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .field--name-field-amazon-book-listing {
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .field--name-field-amazon-book-listing {
         text-align: center; }
   .blog-type-page #main-content .panel-myriad-layout .main-display {
     width: 100%; }
@@ -947,35 +947,35 @@ article.main-content p {
 .pane-node-field-video {
   margin-bottom: 10px; }
 
-.sidebar div.panel-pane div.node.node-advertisement.node-ad-image-portrait .panel-display, .sidebar div.panel-pane div.node.node-advertisement.node-ad-amazon-book .panel-display {
+.sidebar div.panel-pane div.node.node-advertisement.node-card-image-portrait .panel-display, .sidebar div.panel-pane div.node.node-advertisement.node-card-amazon-book .panel-display {
   padding: 0;
   margin: 0; }
-.sidebar div.panel-pane div.node.node-advertisement.node-ad-image-portrait .col-1, .sidebar div.panel-pane div.node.node-advertisement.node-ad-amazon-book .col-1 {
+.sidebar div.panel-pane div.node.node-advertisement.node-card-image-portrait .col-1, .sidebar div.panel-pane div.node.node-advertisement.node-card-amazon-book .col-1 {
   float: none;
   margin: 0;
   text-align: center;
   width: 100%; }
-.sidebar div.panel-pane div.node.node-advertisement.node-ad-image-portrait .col-2, .sidebar div.panel-pane div.node.node-advertisement.node-ad-amazon-book .col-2 {
+.sidebar div.panel-pane div.node.node-advertisement.node-card-image-portrait .col-2, .sidebar div.panel-pane div.node.node-advertisement.node-card-amazon-book .col-2 {
   width: 100%;
   text-align: center; }
 
-.pane-ad-cycles-ad-random .panel-display {
+.pane-card-cycles-card-random .panel-display {
   padding: 0;
   margin-bottom: 0; }
-  .pane-ad-cycles-ad-random .panel-display .col-1, .pane-ad-cycles-ad-random .panel-display .col-2 {
+  .pane-card-cycles-card-random .panel-display .col-1, .pane-card-cycles-card-random .panel-display .col-2 {
     width: 100%; }
-.pane-ad-cycles-ad-random .field--name-field-amazon-book-listing .field__item {
+.pane-card-cycles-card-random .field--name-field-amazon-book-listing .field__item {
   text-align: center; }
 @media (min-width: 0px) and (max-width: 949px) {
-  .pane-ad-cycles-ad-random .views-slideshow-cycle-main-frame-row .views-row {
+  .pane-card-cycles-card-random .views-slideshow-cycle-main-frame-row .views-row {
     margin: 0; } }
-.pane-ad-cycles-ad-random .views-slideshow-cycle-main-frame-row h2 {
+.pane-card-cycles-card-random .views-slideshow-cycle-main-frame-row h2 {
   margin: 0.5em 0 0 0;
   text-align: center; }
-.pane-ad-cycles-ad-random .views-slideshow-cycle-main-frame-row h3 {
+.pane-card-cycles-card-random .views-slideshow-cycle-main-frame-row h3 {
   margin: 0 0 0.5em 0;
   text-align: center; }
-.pane-ad-cycles-ad-random .pane-node-field-ad-image {
+.pane-card-cycles-card-random .pane-node-field-card-image {
   text-align: center; }
 
 div.panel-pane div.node.node-advertisement {
@@ -986,9 +986,9 @@ div.panel-pane div.node.node-advertisement {
   margin-bottom: 2em;
   width: 100%;
   box-sizing: border-box; }
-  div.panel-pane div.node.node-advertisement.node-ad-image-portrait .col-1, div.panel-pane div.node.node-advertisement.node-ad-amazon-book .col-1 {
+  div.panel-pane div.node.node-advertisement.node-card-image-portrait .col-1, div.panel-pane div.node.node-advertisement.node-card-amazon-book .col-1 {
     text-align: center; }
-  div.panel-pane div.node.node-advertisement.node-ad-image-landscape {
+  div.panel-pane div.node.node-advertisement.node-card-image-landscape {
     text-align: center; }
   div.panel-pane div.node.node-advertisement .pane-node-title {
     text-align: center; }
@@ -1240,42 +1240,42 @@ td .description {
   width: 160px;
   margin-right: 10px; }
 
-.pane-ad-cycles-ad-slideshow .views-slideshow-cycle-main-frame,
-.pane-ad-cycles-ad-slideshow .views-slideshow-cycle-main-frame-row {
+.pane-card-cycles-card-slideshow .views-slideshow-cycle-main-frame,
+.pane-card-cycles-card-slideshow .views-slideshow-cycle-main-frame-row {
   width: 100% !important; }
-.pane-ad-cycles-ad-slideshow .col-1 {
+.pane-card-cycles-card-slideshow .col-1 {
   width: 100%;
   text-align: center; }
-.pane-ad-cycles-ad-slideshow .field--name-field-ad-image {
+.pane-card-cycles-card-slideshow .field--name-field-ad-image {
   text-align: center; }
-.pane-ad-cycles-ad-slideshow .field--name-field-ad-sub-headline {
+.pane-card-cycles-card-slideshow .field--name-field-ad-sub-headline {
   text-align: center; }
-.pane-ad-cycles-ad-slideshow .pane-node-title h2 {
+.pane-card-cycles-card-slideshow .pane-node-title h2 {
   margin: 0; }
-.pane-ad-cycles-ad-slideshow .views-slideshow-controls-text {
+.pane-card-cycles-card-slideshow .views-slideshow-controls-text {
   text-align: center; }
-.pane-ad-cycles-ad-slideshow .views-slideshow-controls-text-pause {
+.pane-card-cycles-card-slideshow .views-slideshow-controls-text-pause {
   margin: 0.5em; }
-.pane-ad-cycles-ad-slideshow .views-slideshow-controls-text-previous a:before {
+.pane-card-cycles-card-slideshow .views-slideshow-controls-text-previous a:before {
   content: "\f104";
   font-family: FontAwesome;
   color: inherit;
   margin-right: 0.3em; }
-.pane-ad-cycles-ad-slideshow .views-slideshow-controls-text-next a:after {
+.pane-card-cycles-card-slideshow .views-slideshow-controls-text-next a:after {
   content: "\f105";
   font-family: FontAwesome;
   color: inherit;
   margin-left: 0.3em; }
-.pane-ad-cycles-ad-slideshow .vscc-controls {
+.pane-card-cycles-card-slideshow .vscc-controls {
   text-align: center;
   position: absolute;
   width: 100%;
   z-index: 100;
   height: 2em; }
-  .pane-ad-cycles-ad-slideshow .vscc-controls span {
+  .pane-card-cycles-card-slideshow .vscc-controls span {
     vertical-align: middle;
     display: inline-block; }
-  .pane-ad-cycles-ad-slideshow .vscc-controls .vscc_controls_pause a {
+  .pane-card-cycles-card-slideshow .vscc-controls .vscc_controls_pause a {
     line-height: 2em; }
 
 .page-faq .row, .node-type-panopoly-faq .row {

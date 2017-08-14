@@ -112,8 +112,8 @@ article.main-content p {
 
 .sidebar {
   div.panel-pane div.node.node-advertisement {
-    &.node-ad-image-portrait,
-    &.node-ad-amazon-book {
+    &.node-card-image-portrait,
+    &.node-card-amazon-book {
       .panel-display {
         padding: 0;
         margin: 0;
@@ -133,7 +133,7 @@ article.main-content p {
   } 
 }
 
-.pane-ad-cycles-ad-random {
+.pane-card-cycles-card-random {
   .panel-display {
     padding: 0;
     margin-bottom: 0;
@@ -163,7 +163,7 @@ article.main-content p {
     }
   }
 
-  .pane-node-field-ad-image {
+  .pane-node-field-card-image {
     text-align: center;
   }
 }
@@ -177,14 +177,14 @@ div.panel-pane div.node.node-advertisement {
 	width: 100%;
 	box-sizing: border-box;
 
-  &.node-ad-image-portrait,
-  &.node-ad-amazon-book {
+  &.node-card-image-portrait,
+  &.node-card-amazon-book {
     .col-1 {
       text-align: center;
     }
   }
 
-  &.node-ad-image-landscape {
+  &.node-card-image-landscape {
     text-align: center;
   }
 
@@ -538,7 +538,7 @@ td {
   }
 }
 
-.pane-ad-cycles-ad-slideshow {
+.pane-card-cycles-card-slideshow {
   .views-slideshow-cycle-main-frame,
   .views-slideshow-cycle-main-frame-row {
     width: 100% !important;
