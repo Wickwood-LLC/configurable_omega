@@ -1221,7 +1221,8 @@ td .description {
   font-weight: bold;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
-  display: inline-flex; }
+  display: inline-flex;
+  width: 225px; }
   .field--name-field-contributor-type:after {
     content: ':\00a0';
     display: inline-block; }
