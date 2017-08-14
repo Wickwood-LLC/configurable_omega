@@ -708,6 +708,79 @@ label {
 .pane-panopoly-faq-panel-pane-3 h4.field-content {
   margin: 0; }
 
+.node-type-published-books .radix-layouts-header {
+  margin-bottom: 1em; }
+@media (min-width: 750px) {
+  .node-type-published-books .col-md-4 {
+    width: 66.66666666666666%;
+    float: left; }
+  .node-type-published-books .col-md-8 {
+    width: 66.66666666666666%; } }
+
+.pane-node-field-teaser-title {
+  text-align: center;
+  margin: 0; }
+
+.pane-node-field-book-title {
+  font-size: 32.4px;
+  text-align: center;
+  margin: 0; }
+
+.pane-node-field-book-sub-title {
+  text-align: center;
+  margin: 0; }
+
+.field--name-field-book-cover {
+  text-align: center; }
+
+.field--name-field-authors .field-items {
+  display: inline; }
+.field--name-field-authors .field__item {
+  display: inline; }
+.field--name-field-authors .field__item:not(:last-child):after {
+  content: ",\00a0"; }
+
+.field--name-field-contributor-type {
+  font-weight: bold;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 225px; }
+  .field--name-field-contributor-type:after {
+    content: ':\00a0';
+    display: inline-block; }
+
+.field--name-field-contributor-name {
+  display: inline-block; }
+  .field--name-field-contributor-name .field__item {
+    display: inline; }
+  .field--name-field-contributor-name .field__item:not(:last-child):after {
+    content: ",\00a0"; }
+
+.field--name-field-available-in {
+  overflow-x: auto;
+  margin-top: 1em;
+  margin-bottom: 1em; }
+  .field--name-field-available-in .field-collection-table-view {
+    border: 1px solid #aaa; }
+  .field--name-field-available-in th:not(:last-child) {
+    padding-right: 1em; }
+
+th.field_publish_location {
+  width: 150px; }
+
+th.field_standardized_book_number_s {
+  width: 200px; }
+
+th.field_number_of_pages {
+  width: 100px; }
+
+th.field_purchase_links {
+  width: 100px; }
+
+th.field_order_by_phone {
+  min-width: 140px; }
+
 ul.breadcrumb {
   list-style: none;
   display: inline-block;
@@ -1193,73 +1266,6 @@ td .description {
     display: inline-block; }
   .pane-ad-cycles-ad-slideshow .vscc-controls .vscc_controls_pause a {
     line-height: 2em; }
-
-.node-type-published-books .radix-layouts-header {
-  margin-bottom: 1em; }
-
-.pane-node-field-teaser-title {
-  text-align: center;
-  margin: 0; }
-
-.pane-node-field-book-title {
-  font-size: 32.4px;
-  text-align: center;
-  margin: 0; }
-
-.pane-node-field-book-sub-title {
-  text-align: center;
-  margin: 0; }
-
-.field--name-field-book-cover {
-  text-align: center; }
-
-.field--name-field-authors .field-items {
-  display: inline; }
-.field--name-field-authors .field__item {
-  display: inline; }
-.field--name-field-authors .field__item:not(:last-child):after {
-  content: ",\00a0"; }
-
-.field--name-field-contributor-type {
-  font-weight: bold;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  width: 225px; }
-  .field--name-field-contributor-type:after {
-    content: ':\00a0';
-    display: inline-block; }
-
-.field--name-field-contributor-name {
-  display: inline-block; }
-  .field--name-field-contributor-name .field__item {
-    display: inline; }
-  .field--name-field-contributor-name .field__item:not(:last-child):after {
-    content: ",\00a0"; }
-
-.field--name-field-available-in {
-  overflow-x: auto;
-  margin-top: 1em;
-  margin-bottom: 1em; }
-  .field--name-field-available-in .field-collection-table-view {
-    border: 1px solid #aaa; }
-  .field--name-field-available-in th:not(:last-child) {
-    padding-right: 1em; }
-
-th.field_publish_location {
-  width: 150px; }
-
-th.field_standardized_book_number_s {
-  width: 200px; }
-
-th.field_number_of_pages {
-  width: 100px; }
-
-th.field_purchase_links {
-  width: 100px; }
-
-th.field_order_by_phone {
-  min-width: 140px; }
 
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;

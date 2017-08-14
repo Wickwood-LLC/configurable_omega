@@ -1,0 +1,94 @@
+.node-type-published-books {
+  .radix-layouts-header {
+    margin-bottom: 1em;
+  }
+
+
+  @include breakpoint(750px) {
+    .col-md-4 {
+      width: 66.66666666666666%;
+      float: left;
+    }
+    .col-md-8 {
+      width: 66.66666666666666%;
+    }
+  }
+}
+
+.pane-node-field-teaser-title {
+  text-align: center;
+  margin: 0;
+}
+.pane-node-field-book-title {
+  font-size: 32.4px;
+  text-align: center;
+  margin: 0;
+}
+.pane-node-field-book-sub-title {
+  text-align: center;
+  margin: 0;
+}
+.field--name-field-book-cover {
+  text-align: center;
+}
+
+.field--name-field-authors {
+  .field-items {
+    display: inline;
+  }
+  .field__item {
+    display: inline;
+  }
+  .field__item:not(:last-child):after {
+      content: ",\00a0";
+  }
+}
+.field--name-field-contributor-type {
+  font-weight: bold;
+  display: inline-flex;
+  width: 225px;
+
+  &:after {
+    content: ':\00a0';
+    display: inline-block;
+  }
+}
+.field--name-field-contributor-name {
+  display: inline-block;
+
+  .field__item {
+    display: inline;
+  }
+  .field__item:not(:last-child):after {
+      content: ",\00a0";
+  }
+}
+
+.field--name-field-available-in {
+  overflow-x: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  .field-collection-table-view {
+    border: 1px solid #aaa;
+  }
+  th:not(:last-child) {
+    padding-right: 1em;
+  }
+}
+
+th.field_publish_location {
+  width: 150px;
+}
+th.field_standardized_book_number_s {
+  width: 200px;
+}
+th.field_number_of_pages {
+  width: 100px;
+}
+th.field_purchase_links {
+  width: 100px;
+}
+th.field_order_by_phone {
+  min-width: 140px;
+}
