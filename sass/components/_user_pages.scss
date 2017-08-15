@@ -405,11 +405,11 @@
 			flex-flow: row wrap;
 
 			.field__label {
-				flex: 0 0 120px;
+				flex: 0 0 125px;
 			}
 
 			.field__items {
-				flex: 1 1 calc(100% - 120px)
+				flex: 1 1 calc(100% - 125px)
 			}
 		}
 	}
