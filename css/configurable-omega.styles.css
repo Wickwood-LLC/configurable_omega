@@ -737,15 +737,14 @@ label {
 .field--name-field-book-cover {
   text-align: center; }
 
-.field--name-field-contributors {
+.field--name-field-contributors table {
+  width: auto;
   margin: 0 auto; }
   @media (min-width: 750px) {
-    .field--name-field-contributors {
+    .field--name-field-contributors table {
       margin: 0; } }
-  .field--name-field-contributors table {
-    width: auto; }
-  .field--name-field-contributors tr {
-    background-color: transparent; }
+.field--name-field-contributors tr {
+  background-color: transparent; }
 
 .field--name-field-contributor-type {
   font-weight: bold;

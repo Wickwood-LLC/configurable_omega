@@ -37,13 +37,12 @@
 }
 
 .field--name-field-contributors {
-  margin: 0 auto;
-  @include breakpoint(750px) {
-    margin: 0;
-  }
-
   table {
     width: auto;
+    margin: 0 auto;
+    @include breakpoint(750px) {
+      margin: 0;
+    }
   }
   tr {
     background-color: transparent;
