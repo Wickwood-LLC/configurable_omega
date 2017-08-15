@@ -101,6 +101,9 @@ h6 {
 label {
   text-transform: capitalize; }
 
+#header, #page, #footer {
+  overflow: hidden; }
+
 .compact-link {
   font-size: 11px;
   height: 20px;
@@ -745,15 +748,18 @@ label {
       margin: 0; } }
 .field--name-field-contributors tr {
   background-color: transparent; }
+@media (min-width: 0px) and (max-width: 450px) {
+  .field--name-field-contributors td.field-contributor-type,
+  .field--name-field-contributors td.field-contributor-name {
+    display: inline-block;
+    line-height: 1;
+    padding: 0; } }
 
 .field--name-field-contributor-type {
   font-weight: bold;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 225px;
-          flex: 1 1 225px; }
+  display: inline-flex; }
   .field--name-field-contributor-type:after {
     content: ':\00a0';
     display: inline-block; }
