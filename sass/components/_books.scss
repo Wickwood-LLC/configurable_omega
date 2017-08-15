@@ -36,9 +36,16 @@
   text-align: center;
 }
 
-.field-collection-item-field-contributors .content {
-  display: flex;
-  flex-flow: row wrap;
+.field--name-field-contributors {
+  width: auto;
+  margin: 0 auto;
+  @include breakpoint(750px) {
+    margin: 0;
+  }
+
+  tr {
+    background-color: transparent;
+  }
 }
 .field--name-field-contributor-type {
   font-weight: bold;
@@ -51,9 +58,6 @@
   }
 }
 .field--name-field-contributor-name {
-  display: inline-block;
-  flex: 1 1 calc(100% - 225px);
-
   .field__item {
     display: inline;
   }
