@@ -738,11 +738,12 @@ label {
   text-align: center; }
 
 .field--name-field-contributors {
-  width: auto;
   margin: 0 auto; }
   @media (min-width: 750px) {
     .field--name-field-contributors {
       margin: 0; } }
+  .field--name-field-contributors table {
+    width: auto; }
   .field--name-field-contributors tr {
     background-color: transparent; }
 
