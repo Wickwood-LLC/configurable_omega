@@ -589,8 +589,11 @@ td {
       vertical-align: middle;
       display: inline-block;
     }
-    .vscc_controls_pause a {
-      line-height: 2em;
+    .vscc_controls_pause {
+      display: inline-block;
+      a {
+        line-height: 2em;
+      }
     }
   }
 }

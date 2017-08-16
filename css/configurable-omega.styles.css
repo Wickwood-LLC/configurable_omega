@@ -1278,8 +1278,10 @@ td .description {
   .pane-card-cycles-card-slideshow .vscc-controls span {
     vertical-align: middle;
     display: inline-block; }
-  .pane-card-cycles-card-slideshow .vscc-controls .vscc_controls_pause a {
-    line-height: 2em; }
+  .pane-card-cycles-card-slideshow .vscc-controls .vscc_controls_pause {
+    display: inline-block; }
+    .pane-card-cycles-card-slideshow .vscc-controls .vscc_controls_pause a {
+      line-height: 2em; }
 
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;
