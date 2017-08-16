@@ -998,7 +998,7 @@ div.panel-pane div.node.node-advertisement {
     div.panel-pane div.node.node-advertisement .pane-node-title h2 {
       margin-top: 0;
       margin-bottom: 0.5em; }
-  div.panel-pane div.node.node-advertisement .pane-node-field-ad-sub-headline {
+  div.panel-pane div.node.node-advertisement .pane-node-field-card-sub-headline {
     text-align: center; }
   div.panel-pane div.node.node-advertisement .file-image img {
     margin: auto; }
@@ -1249,9 +1249,9 @@ td .description {
 .pane-card-cycles-card-slideshow .col-1 {
   width: 100%;
   text-align: center; }
-.pane-card-cycles-card-slideshow .field--name-field-ad-image {
+.pane-card-cycles-card-slideshow .field--name-field-card-image {
   text-align: center; }
-.pane-card-cycles-card-slideshow .field--name-field-ad-sub-headline {
+.pane-card-cycles-card-slideshow .field--name-field-card-sub-headline {
   text-align: center; }
 .pane-card-cycles-card-slideshow .pane-node-title h2 {
   margin: 0; }
@@ -2978,7 +2978,7 @@ body {
   width: 150px;
   height: auto; }
 
-h3.pane-node-field-ad-sub-headline {
+h3.pane-node-field-card-sub-headline {
   margin-top: 0.5em;
   margin-bottom: 0.5em; }
 
