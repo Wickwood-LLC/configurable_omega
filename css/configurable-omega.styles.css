@@ -748,7 +748,7 @@ label {
       margin: 0; } }
 .field--name-field-contributors tr {
   background-color: transparent; }
-@media (min-width: 0px) and (max-width: 450px) {
+@media (min-width: 0px) and (max-width: 630px) {
   .field--name-field-contributors td.field-contributor-type,
   .field--name-field-contributors td.field-contributor-name {
     display: inline-block;
@@ -760,7 +760,7 @@ label {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex; }
-  .field--name-field-contributor-type:after {
+  .field--name-field-contributor-type .field__item:after {
     content: ':\00a0';
     display: inline-block; }
 
@@ -1136,7 +1136,7 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
     margin-top: 0;
     padding-top: 2em; }
 
-#views_slideshow_cycle_teaser_section_ad_cycles-ad_random {
+#views_slideshow_cycle_teaser_section_card_cycles-card_random {
   width: 100% !important; }
 
 table.fc-border-separate {
