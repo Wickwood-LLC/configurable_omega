@@ -748,12 +748,14 @@ label {
       margin: 0; } }
 .field--name-field-contributors tr {
   background-color: transparent; }
-@media (min-width: 0px) and (max-width: 630px) {
-  .field--name-field-contributors td.field-contributor-type,
-  .field--name-field-contributors td.field-contributor-name {
-    display: inline-block;
-    line-height: 1;
-    padding: 0; } }
+.field--name-field-contributors td.field-contributor-type,
+.field--name-field-contributors td.field-contributor-name {
+  line-height: 1;
+  padding: 0; }
+  @media (min-width: 0px) and (max-width: 630px) {
+    .field--name-field-contributors td.field-contributor-type,
+    .field--name-field-contributors td.field-contributor-name {
+      display: inline-block; } }
 
 .field--name-field-contributor-type {
   font-weight: bold;
