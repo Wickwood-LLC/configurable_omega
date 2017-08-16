@@ -750,7 +750,7 @@ label {
   background-color: transparent; }
 .field--name-field-contributors td.field-contributor-type,
 .field--name-field-contributors td.field-contributor-name {
-  line-height: 1;
+  line-height: 1.35em;
   padding: 0; }
   @media (min-width: 0px) and (max-width: 630px) {
     .field--name-field-contributors td.field-contributor-type,

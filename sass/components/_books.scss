@@ -49,7 +49,7 @@
   }
   td.field-contributor-type,
   td.field-contributor-name {
-    line-height: 1;
+    line-height: 1.35em;
     padding: 0;
     @include breakpoint(0px 630px) {
       display: inline-block;
