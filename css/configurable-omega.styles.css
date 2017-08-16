@@ -1269,18 +1269,19 @@ td .description {
   font-family: FontAwesome;
   color: inherit;
   margin-left: 0.3em; }
-.pane-card-cycles-card-slideshow .vscc-controls {
+
+.vscc-controls {
   text-align: center;
   position: absolute;
   width: 100%;
   z-index: 100;
   height: 2em; }
-  .pane-card-cycles-card-slideshow .vscc-controls span {
+  .vscc-controls span {
     vertical-align: middle;
     display: inline-block; }
-  .pane-card-cycles-card-slideshow .vscc-controls .vscc_controls_pause {
+  .vscc-controls .vscc_controls_pause {
     display: inline-block; }
-    .pane-card-cycles-card-slideshow .vscc-controls .vscc_controls_pause a {
+    .vscc-controls .vscc_controls_pause a {
       line-height: 2em; }
 
 .page-faq .row, .node-type-panopoly-faq .row {
