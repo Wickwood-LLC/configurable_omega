@@ -789,7 +789,8 @@ label {
   margin-bottom: 1em; }
   .field--name-field-available-in .field-collection-table-view {
     border: 1px solid #aaa; }
-  .field--name-field-available-in th:not(:last-child) {
+  .field--name-field-available-in th:not(:last-child),
+  .field--name-field-available-in td:not(:last-child) {
     padding-right: 1em; }
 
 th.field_publish_location {
