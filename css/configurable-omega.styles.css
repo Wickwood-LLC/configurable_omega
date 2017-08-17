@@ -756,6 +756,18 @@ label {
     .field--name-field-contributors td.field-contributor-type,
     .field--name-field-contributors td.field-contributor-name {
       display: inline-block; } }
+  @media (min-width: 631px) and (max-width: 749px) {
+    .field--name-field-contributors td.field-contributor-type,
+    .field--name-field-contributors td.field-contributor-name {
+      display: table-cell; } }
+  @media (min-width: 750px) and (max-width: 914px) {
+    .field--name-field-contributors td.field-contributor-type,
+    .field--name-field-contributors td.field-contributor-name {
+      display: inline-block; } }
+  @media (min-width: 915px) {
+    .field--name-field-contributors td.field-contributor-type,
+    .field--name-field-contributors td.field-contributor-name {
+      display: table-cell; } }
 
 .field--name-field-contributor-type {
   font-weight: bold;

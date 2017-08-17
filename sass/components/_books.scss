@@ -54,6 +54,15 @@
     @include breakpoint(0px 630px) {
       display: inline-block;
     }
+    @include breakpoint(631px 749px) {
+      display: table-cell;
+    }
+    @include breakpoint(750px 914px) {
+      display: inline-block;
+    }
+    @include breakpoint(915px) {
+      display: table-cell;
+    }
   }
 }
 .field--name-field-contributor-type {
