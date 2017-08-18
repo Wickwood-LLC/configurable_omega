@@ -101,9 +101,6 @@ h6 {
 label {
   text-transform: capitalize; }
 
-#header, #page, #footer {
-  overflow: hidden; }
-
 .compact-link {
   font-size: 11px;
   height: 20px;
@@ -963,15 +960,15 @@ article.main-content p {
 .pane-node-field-video {
   margin-bottom: 10px; }
 
-.sidebar div.panel-pane div.node.node-advertisement.node-card-image-portrait .panel-display, .sidebar div.panel-pane div.node.node-advertisement.node-card-amazon-book .panel-display {
+.sidebar div.panel-pane div.node.node-card.node-card-image-portrait .panel-display, .sidebar div.panel-pane div.node.node-card.node-card-amazon-book .panel-display {
   padding: 0;
   margin: 0; }
-.sidebar div.panel-pane div.node.node-advertisement.node-card-image-portrait .col-1, .sidebar div.panel-pane div.node.node-advertisement.node-card-amazon-book .col-1 {
+.sidebar div.panel-pane div.node.node-card.node-card-image-portrait .col-1, .sidebar div.panel-pane div.node.node-card.node-card-amazon-book .col-1 {
   float: none;
   margin: 0;
   text-align: center;
   width: 100%; }
-.sidebar div.panel-pane div.node.node-advertisement.node-card-image-portrait .col-2, .sidebar div.panel-pane div.node.node-advertisement.node-card-amazon-book .col-2 {
+.sidebar div.panel-pane div.node.node-card.node-card-image-portrait .col-2, .sidebar div.panel-pane div.node.node-card.node-card-amazon-book .col-2 {
   width: 100%;
   text-align: center; }
 
@@ -994,7 +991,7 @@ article.main-content p {
 .pane-card-cycles-card-random .pane-node-field-card-image {
   text-align: center; }
 
-div.panel-pane div.node.node-advertisement {
+div.panel-pane div.node.node-card {
   background-color: #f5f5f5;
   padding: 1em;
   border-radius: 10px;
@@ -1002,23 +999,23 @@ div.panel-pane div.node.node-advertisement {
   margin-bottom: 2em;
   width: 100%;
   box-sizing: border-box; }
-  div.panel-pane div.node.node-advertisement.node-card-image-portrait .col-1, div.panel-pane div.node.node-advertisement.node-card-amazon-book .col-1 {
+  div.panel-pane div.node.node-card.node-card-image-portrait .col-1, div.panel-pane div.node.node-card.node-card-amazon-book .col-1 {
     text-align: center; }
-  div.panel-pane div.node.node-advertisement.node-card-image-landscape {
+  div.panel-pane div.node.node-card.node-card-image-landscape {
     text-align: center; }
-  div.panel-pane div.node.node-advertisement .pane-node-title {
+  div.panel-pane div.node.node-card .pane-node-title {
     text-align: center; }
-    div.panel-pane div.node.node-advertisement .pane-node-title h2 {
+    div.panel-pane div.node.node-card .pane-node-title h2 {
       margin-top: 0;
       margin-bottom: 0.5em; }
-  div.panel-pane div.node.node-advertisement .pane-node-field-card-sub-headline {
+  div.panel-pane div.node.node-card .pane-node-field-card-sub-headline {
     text-align: center; }
-  div.panel-pane div.node.node-advertisement .file-image img {
+  div.panel-pane div.node.node-card .file-image img {
     margin: auto; }
-  div.panel-pane div.node.node-advertisement .file-video iframe {
+  div.panel-pane div.node.node-card .file-video iframe {
     display: table;
     margin: auto; }
-  div.panel-pane div.node.node-advertisement .field-items {
+  div.panel-pane div.node.node-card .field-items {
     margin-left: 0; }
 
 .pane-node-field-amazon-book-listing {
