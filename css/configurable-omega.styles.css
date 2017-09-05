@@ -482,7 +482,7 @@ label {
         display: -ms-flexbox;
         display: flex; }
     .featured-display .view-content .scroll-pane {
-      max-height: 600px;
+      max-height: 716px;
       overflow: auto; }
     .featured-display .view-content .views-field-published-at {
       text-align: center;
